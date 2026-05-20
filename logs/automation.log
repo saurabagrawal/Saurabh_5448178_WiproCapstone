@@ -1,0 +1,296 @@
+2026-05-20 16:13:21,338 : INFO : Chrome Browser Launched
+2026-05-20 16:13:21,382 : INFO : ====== WebDriver manager ======
+2026-05-20 16:13:26,753 : INFO : Driver [C:\Users\agarw\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-20 16:14:00,960 : INFO : Myntra Website Opened
+2026-05-20 16:14:02,093 : INFO : ******** Homepage Test Started ********
+2026-05-20 16:14:09,998 : INFO : Myntra Website Opened
+2026-05-20 16:14:12,272 : INFO : Homepage Screenshot Captured
+2026-05-20 16:14:12,275 : INFO : Homepage Test Passed
+2026-05-20 16:14:12,366 : INFO : Closing Browser
+2026-05-20 16:14:26,095 : INFO : Chrome Browser Launched
+2026-05-20 16:14:26,107 : INFO : ====== WebDriver manager ======
+2026-05-20 16:14:29,813 : INFO : Driver [C:\Users\agarw\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-20 16:31:37,714 : INFO : Launching Chrome Browser
+2026-05-20 16:31:37,756 : INFO : ====== WebDriver manager ======
+2026-05-20 16:31:42,909 : INFO : Driver [C:\Users\agarw\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-20 16:32:02,920 : INFO : Myntra Website Opened
+2026-05-20 16:32:03,158 : INFO : ******** Homepage Test Started ********
+2026-05-20 16:32:09,048 : INFO : Myntra Website Opened
+2026-05-20 16:32:09,831 : INFO : Homepage Screenshot Captured
+2026-05-20 16:32:10,090 : INFO : Homepage Verification Passed
+2026-05-20 16:32:10,091 : INFO : ******** Homepage Test Completed ********
+2026-05-20 16:32:10,143 : INFO : Closing Browser
+2026-05-20 16:32:24,025 : INFO : Launching Chrome Browser
+2026-05-20 16:32:24,037 : INFO : ====== WebDriver manager ======
+2026-05-20 16:32:28,712 : INFO : Driver [C:\Users\agarw\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-20 16:32:45,666 : INFO : Myntra Website Opened
+2026-05-20 16:32:45,791 : INFO : ******** Myntra Kids E2E Test Started ********
+2026-05-20 16:33:06,407 : ERROR : E2E Test Failed: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff624797de5+14895]
+	chromedriver!GetHandleVerifier [0x7ff624797e50+14900]
+	chromedriver!(No symbol) [0x7ff6244fd5ad]
+	chromedriver!(No symbol) [0x7ff624557822]
+	chromedriver!(No symbol) [0x7ff624557b2c]
+	chromedriver!(No symbol) [0x7ff6245a7d17]
+	chromedriver!(No symbol) [0x7ff6245a486f]
+	chromedriver!(No symbol) [0x7ff624549df8]
+	chromedriver!(No symbol) [0x7ff62454ace3]
+	chromedriver!GetHandleVerifier [0x7ff624aacc49+3296f9]
+	chromedriver!GetHandleVerifier [0x7ff624aa7375+323e25]
+	chromedriver!GetHandleVerifier [0x7ff624acbc82+348732]
+	chromedriver!GetHandleVerifier [0x7ff6247b6045+32af5]
+	chromedriver!GetHandleVerifier [0x7ff6247becec+3b79c]
+	chromedriver!GetHandleVerifier [0x7ff6247a1bc4+1e674]
+	chromedriver!GetHandleVerifier [0x7ff6247a1d54+1e804]
+	chromedriver!GetHandleVerifier [0x7ff6247860e7+2b97]
+	KERNEL32!BaseThreadInitThunk [0x7ffbe2e0e957+17]
+	ntdll!RtlUserThreadStart [0x7ffbe3d2427c+2c]
+
+2026-05-20 16:33:08,426 : INFO : Closing Browser
+2026-05-20 16:40:05,936 : INFO : Launching Chrome Browser
+2026-05-20 16:40:36,691 : INFO : Myntra Website Opened Successfully
+2026-05-20 16:40:36,858 : INFO : ******** Myntra Kids E2E Test Started ********
+2026-05-20 16:40:36,940 : INFO : Homepage Verified Successfully
+2026-05-20 16:40:41,165 : INFO : Kids Section Opened Successfully
+2026-05-20 16:40:41,187 : INFO : Kids Page Verified Successfully
+2026-05-20 16:40:42,694 : INFO : Search Performed For Product: Kids T-shirt
+2026-05-20 16:41:03,668 : ERROR : E2E Test Failed: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff683b47de5+14895]
+	chromedriver!GetHandleVerifier [0x7ff683b47e50+14900]
+	chromedriver!(No symbol) [0x7ff6838ad5ad]
+	chromedriver!(No symbol) [0x7ff683907822]
+	chromedriver!(No symbol) [0x7ff683907b2c]
+	chromedriver!(No symbol) [0x7ff683957d17]
+	chromedriver!(No symbol) [0x7ff68395486f]
+	chromedriver!(No symbol) [0x7ff6838f9df8]
+	chromedriver!(No symbol) [0x7ff6838face3]
+	chromedriver!GetHandleVerifier [0x7ff683e5cc49+3296f9]
+	chromedriver!GetHandleVerifier [0x7ff683e57375+323e25]
+	chromedriver!GetHandleVerifier [0x7ff683e7bc82+348732]
+	chromedriver!GetHandleVerifier [0x7ff683b66045+32af5]
+	chromedriver!GetHandleVerifier [0x7ff683b6ecec+3b79c]
+	chromedriver!GetHandleVerifier [0x7ff683b51bc4+1e674]
+	chromedriver!GetHandleVerifier [0x7ff683b51d54+1e804]
+	chromedriver!GetHandleVerifier [0x7ff683b360e7+2b97]
+	KERNEL32!BaseThreadInitThunk [0x7ffbe2e0e957+17]
+	ntdll!RtlUserThreadStart [0x7ffbe3d2427c+2c]
+
+2026-05-20 16:41:06,695 : ERROR : Screenshot Saved: screenshots/test_myntra_kids_e2e[Kids T-shirt].png
+2026-05-20 16:41:06,951 : INFO : Closing Browser
+2026-05-20 16:47:55,941 : INFO : Launching Chrome Browser
+2026-05-20 16:48:08,201 : INFO : Myntra Website Opened Successfully
+2026-05-20 16:48:08,206 : INFO : ******** Myntra Kids E2E Test Started ********
+2026-05-20 16:48:08,319 : INFO : Homepage Verified Successfully
+2026-05-20 16:50:22,268 : ERROR : E2E Test Failed: HTTPConnectionPool(host='localhost', port=63988): Read timed out. (read timeout=120)
+2026-05-20 16:52:37,047 : WARNING : Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPConnectionPool(host='localhost', port=63988): Read timed out. (read timeout=120)")': /session/32bea26090dff89a4d6a16a4717c1e8f/screenshot
+2026-05-20 16:54:38,315 : INFO : Launching Chrome Browser
+2026-05-20 16:55:32,767 : INFO : Myntra Website Opened Successfully
+2026-05-20 16:55:33,395 : INFO : ******** Test Valid Login Started ********
+2026-05-20 16:55:38,590 : INFO : Myntra Website Opened
+2026-05-20 16:55:43,128 : INFO : Homepage Screenshot Captured
+2026-05-20 16:55:43,136 : INFO : Valid Login Test Passed
+2026-05-20 16:55:43,459 : INFO : Closing Browser
+2026-05-20 16:57:42,251 : INFO : Launching Chrome Browser
+2026-05-20 16:57:53,036 : INFO : Myntra Website Opened Successfully
+2026-05-20 16:57:53,061 : INFO : ******** Test Valid Login Started ********
+2026-05-20 16:57:58,163 : INFO : Myntra Website Opened
+2026-05-20 16:57:58,657 : INFO : Homepage Screenshot Captured
+2026-05-20 16:57:58,657 : INFO : Valid Login Test Passed
+2026-05-20 16:57:58,965 : INFO : Closing Browser
+2026-05-20 16:58:10,122 : INFO : Launching Chrome Browser
+2026-05-20 16:58:19,470 : INFO : Myntra Website Opened Successfully
+2026-05-20 16:58:19,474 : INFO : ******** Add Product To Bag Test Started ********
+2026-05-20 16:58:19,550 : INFO : Homepage Verified
+2026-05-20 16:58:22,480 : INFO : Kids Section Opened
+2026-05-20 16:58:23,340 : INFO : Product Search Successful
+2026-05-20 16:58:35,545 : ERROR : Screenshot Saved: screenshots/test_add_product_to_bag.png
+2026-05-20 16:58:35,604 : INFO : Closing Browser
+2026-05-20 16:59:26,146 : INFO : Launching Chrome Browser
+2026-05-20 16:59:31,926 : INFO : Myntra Website Opened Successfully
+2026-05-20 16:59:31,938 : INFO : ******** Test Valid Login Started ********
+2026-05-20 16:59:32,344 : INFO : Myntra Website Opened
+2026-05-20 16:59:35,211 : INFO : Homepage Screenshot Captured
+2026-05-20 16:59:35,211 : INFO : Valid Login Test Passed
+2026-05-20 16:59:35,356 : INFO : Closing Browser
+2026-05-20 16:59:38,010 : INFO : Launching Chrome Browser
+2026-05-20 16:59:44,573 : INFO : Myntra Website Opened Successfully
+2026-05-20 16:59:44,575 : INFO : ******** Apply Brand Filter Test Started ********
+2026-05-20 16:59:44,886 : INFO : Homepage Verified
+2026-05-20 16:59:49,539 : INFO : Kids Section Opened
+2026-05-20 16:59:50,085 : INFO : Product Search Successful
+2026-05-20 17:00:14,117 : ERROR : Screenshot Saved: screenshots/test_apply_brand_filter.png
+2026-05-20 17:00:14,322 : INFO : Closing Browser
+2026-05-20 17:00:49,962 : INFO : Launching Chrome Browser
+2026-05-20 17:00:55,941 : ERROR : Website Load Failed: Message: target frame detached
+  (failed to check if window was closed: disconnected: Unable to receive message from renderer)
+  (Session info: chrome=148.0.7778.168)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff610a07de5+14895]
+	chromedriver!GetHandleVerifier [0x7ff610a07e50+14900]
+	chromedriver!(No symbol) [0x7ff61076d396]
+	chromedriver!(No symbol) [0x7ff610759e70]
+	chromedriver!(No symbol) [0x7ff610758ca6]
+	chromedriver!(No symbol) [0x7ff61077ee6c]
+	chromedriver!(No symbol) [0x7ff61077e106]
+	chromedriver!(No symbol) [0x7ff610814c15]
+	chromedriver!(No symbol) [0x7ff6107b9df8]
+	chromedriver!(No symbol) [0x7ff6107bace3]
+	chromedriver!GetHandleVerifier [0x7ff610d1cc49+3296f9]
+	chromedriver!GetHandleVerifier [0x7ff610d17375+323e25]
+	chromedriver!GetHandleVerifier [0x7ff610d3bc82+348732]
+	chromedriver!GetHandleVerifier [0x7ff610a26045+32af5]
+	chromedriver!GetHandleVerifier [0x7ff610a2ecec+3b79c]
+	chromedriver!GetHandleVerifier [0x7ff610a11bc4+1e674]
+	chromedriver!GetHandleVerifier [0x7ff610a11d54+1e804]
+	chromedriver!GetHandleVerifier [0x7ff6109f60e7+2b97]
+	KERNEL32!BaseThreadInitThunk [0x7fff6162e957+17]
+	ntdll!RtlUserThreadStart [0x7fff62fa427c+2c]
+
+2026-05-20 17:00:58,480 : INFO : Launching Chrome Browser
+2026-05-20 17:01:08,254 : INFO : Myntra Website Opened Successfully
+2026-05-20 17:01:08,274 : INFO : ******** Open Product Details Test Started ********
+2026-05-20 17:01:08,430 : INFO : Homepage Verified
+2026-05-20 17:01:11,494 : INFO : Kids Section Opened
+2026-05-20 17:01:12,237 : INFO : Product Search Successful
+2026-05-20 17:01:24,558 : ERROR : Screenshot Saved: screenshots/test_open_product_details.png
+2026-05-20 17:01:26,051 : INFO : Closing Browser
+2026-05-20 17:02:08,539 : INFO : Launching Chrome Browser
+2026-05-20 17:02:16,229 : INFO : Myntra Website Opened Successfully
+2026-05-20 17:02:16,260 : INFO : ******** Homepage Test Started ********
+2026-05-20 17:02:26,388 : INFO : Myntra Website Opened
+2026-05-20 17:02:27,264 : INFO : Homepage Screenshot Captured
+2026-05-20 17:02:27,276 : INFO : Homepage Test Passed
+2026-05-20 17:02:27,992 : INFO : Closing Browser
+2026-05-20 17:02:47,444 : INFO : Launching Chrome Browser
+2026-05-20 17:02:58,386 : INFO : Myntra Website Opened Successfully
+2026-05-20 17:02:58,392 : INFO : ******** Valid Login Test Started ********
+2026-05-20 17:03:09,291 : INFO : Login Popup Opened
+2026-05-20 17:03:10,921 : INFO : Mobile Number Entered
+2026-05-20 17:03:11,028 : INFO : Consent Checkbox Clicked
+2026-05-20 17:03:11,462 : INFO : Continue Button Clicked
+2026-05-20 17:03:21,621 : INFO : Valid Login Test Completed
+2026-05-20 17:03:25,876 : INFO : Closing Browser
+2026-05-20 17:20:37,299 : INFO : Launching Chrome Browser
+2026-05-20 17:20:37,300 : INFO : ====== WebDriver manager ======
+2026-05-20 17:20:39,271 : INFO : Driver [C:\Users\agarw\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-20 17:21:00,004 : INFO : Login Popup Opened
+2026-05-20 17:21:01,227 : INFO : Invalid Mobile Number Entered
+2026-05-20 17:21:01,322 : INFO : Consent Checkbox Clicked
+2026-05-20 17:21:01,432 : INFO : Continue Button Clicked
+2026-05-20 17:21:01,515 : INFO : Closing Browser
+2026-05-20 17:22:48,632 : INFO : Launching Chrome Browser
+2026-05-20 17:22:48,635 : INFO : ====== WebDriver manager ======
+2026-05-20 17:22:50,008 : INFO : Driver [C:\Users\agarw\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-20 17:22:59,252 : INFO : Homepage Verified
+2026-05-20 17:23:05,025 : INFO : Kids Section Opened
+2026-05-20 17:23:13,873 : INFO : Invalid Product Searched
+2026-05-20 17:23:24,041 : INFO : No Products Found Verification Passed
+2026-05-20 17:23:24,078 : INFO : Closing Browser
+2026-05-20 17:24:56,716 : INFO : Launching Chrome Browser
+2026-05-20 17:24:56,717 : INFO : ====== WebDriver manager ======
+2026-05-20 17:24:58,251 : INFO : Driver [C:\Users\agarw\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-20 17:25:44,400 : INFO : Login Popup Opened
+2026-05-20 17:25:45,527 : INFO : Valid Mobile Number Entered
+2026-05-20 17:25:45,611 : INFO : Consent Checkbox Clicked
+2026-05-20 17:25:45,818 : INFO : Continue Button Clicked
+2026-05-20 17:25:45,966 : INFO : Closing Browser
+2026-05-20 17:28:18,544 : INFO : Launching Chrome Browser
+2026-05-20 17:28:18,545 : INFO : ====== WebDriver manager ======
+2026-05-20 17:28:20,048 : INFO : Driver [C:\Users\agarw\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-20 17:28:29,571 : INFO : Homepage Verified
+2026-05-20 17:28:32,663 : INFO : Kids Section Opened
+2026-05-20 17:28:38,301 : INFO : Product Search Successful
+2026-05-20 17:28:42,798 : INFO : First Product Opened
+2026-05-20 17:28:42,961 : INFO : Product Details Verified
+2026-05-20 17:28:43,141 : INFO : Closing Browser
+2026-05-20 17:30:30,837 : INFO : Launching Chrome Browser
+2026-05-20 17:30:30,845 : INFO : ====== WebDriver manager ======
+2026-05-20 17:30:32,754 : INFO : Driver [C:\Users\agarw\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-20 17:31:01,625 : INFO : Homepage Verified
+2026-05-20 17:31:06,764 : INFO : Kids Section Opened
+2026-05-20 17:31:10,256 : INFO : Product Search Successful
+2026-05-20 17:31:10,425 : INFO : Brand Filter Applied
+2026-05-20 17:31:10,539 : INFO : Gender Filter Applied
+2026-05-20 17:31:10,644 : INFO : Color Filter Applied
+2026-05-20 17:31:10,671 : INFO : Closing Browser
+2026-05-20 17:32:51,086 : INFO : Launching Chrome Browser
+2026-05-20 17:32:51,087 : INFO : ====== WebDriver manager ======
+2026-05-20 17:32:52,494 : INFO : Driver [C:\Users\agarw\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-20 17:33:01,161 : INFO : Homepage Verified
+2026-05-20 17:33:04,313 : INFO : Kids Section Opened
+2026-05-20 17:33:09,323 : INFO : Product Search Successful
+2026-05-20 17:33:13,585 : INFO : Product Opened
+2026-05-20 17:33:13,955 : INFO : Product Page Verified
+2026-05-20 17:33:14,204 : INFO : Size Selected
+2026-05-20 17:33:14,489 : INFO : Product Added To Bag
+2026-05-20 17:33:14,539 : INFO : Add To Bag Verified
+2026-05-20 17:33:14,601 : INFO : Closing Browser
+2026-05-20 17:34:27,575 : INFO : Launching Chrome Browser
+2026-05-20 17:34:27,576 : INFO : ====== WebDriver manager ======
+2026-05-20 17:34:29,284 : INFO : Driver [C:\Users\agarw\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-20 17:34:55,014 : INFO : Homepage Verified Successfully
+2026-05-20 17:34:59,648 : INFO : Kids Section Opened Successfully
+2026-05-20 17:35:03,461 : INFO : Search performed for: Kids Shoes
+2026-05-20 17:35:04,296 : INFO : Closing Browser
+2026-05-20 17:41:53,270 : INFO : Launching Chrome Browser
+2026-05-20 17:41:53,271 : INFO : ====== WebDriver manager ======
+2026-05-20 17:41:54,582 : INFO : Driver [C:\Users\agarw\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-20 17:42:11,098 : INFO : Homepage Verified Successfully
+2026-05-20 17:42:13,955 : INFO : Kids Section Opened Successfully
+2026-05-20 17:42:16,580 : INFO : Search performed for: Kids Shoes
+2026-05-20 17:42:17,506 : INFO : Closing Browser
+2026-05-20 17:42:43,948 : INFO : Launching Chrome Browser
+2026-05-20 17:42:43,949 : INFO : ====== WebDriver manager ======
+2026-05-20 17:42:45,606 : INFO : Driver [C:\Users\agarw\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-20 17:42:57,401 : INFO : Homepage Verified Successfully
+2026-05-20 17:43:00,641 : INFO : Kids Section Opened Successfully
+2026-05-20 17:43:03,754 : INFO : Search performed for: Kids Shoes
+2026-05-20 17:43:06,730 : INFO : First Product Opened
+2026-05-20 17:43:09,142 : INFO : Closing Browser
+2026-05-20 17:45:55,770 : INFO : Launching Chrome Browser
+2026-05-20 17:45:55,772 : INFO : ====== WebDriver manager ======
+2026-05-20 17:45:58,033 : INFO : Driver [C:\Users\agarw\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-20 17:46:08,217 : INFO : Closing Browser
+2026-05-20 17:47:50,979 : INFO : Launching Chrome Browser
+2026-05-20 17:47:50,980 : INFO : ====== WebDriver manager ======
+2026-05-20 17:47:52,938 : INFO : Driver [C:\Users\agarw\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-20 17:48:01,053 : INFO : Homepage Verified Successfully
+2026-05-20 17:48:05,778 : INFO : Kids Section Opened Successfully
+2026-05-20 17:48:06,072 : INFO : Kids Page Verified
+2026-05-20 17:48:12,120 : INFO : Search performed for: Kids Shoes
+2026-05-20 17:48:15,154 : INFO : First Product Opened
+2026-05-20 17:48:15,387 : INFO : Product Page Verified
+2026-05-20 17:48:15,634 : INFO : Product Size Selected
+2026-05-20 17:48:15,919 : INFO : Product Added To Bag
+2026-05-20 17:48:16,134 : INFO : Product Successfully Added To Bag
+2026-05-20 17:48:16,698 : INFO : Closing Browser
+2026-05-20 17:49:57,620 : INFO : Launching Chrome Browser
+2026-05-20 17:49:57,621 : INFO : ====== WebDriver manager ======
+2026-05-20 17:49:58,995 : INFO : Driver [C:\Users\agarw\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-20 17:50:14,745 : INFO : Homepage Verified Successfully
+2026-05-20 17:50:25,715 : INFO : Kids Section Opened Successfully
+2026-05-20 17:50:25,735 : INFO : Kids Page Verified
+2026-05-20 17:50:31,255 : INFO : Search performed for: Kids Shoes
+2026-05-20 17:50:33,571 : INFO : First Product Opened
+2026-05-20 17:50:33,984 : INFO : Product Page Verified
+2026-05-20 17:50:34,285 : INFO : Product Size Selected
+2026-05-20 17:50:34,467 : INFO : Product Added To Bag
+2026-05-20 17:50:34,623 : INFO : Product Successfully Added To Bag
+2026-05-20 17:50:36,843 : INFO : Closing Browser
+2026-05-20 17:55:06,574 : INFO : Launching Chrome Browser
+2026-05-20 17:55:06,576 : INFO : ====== WebDriver manager ======
+2026-05-20 17:55:07,919 : INFO : Driver [C:\Users\agarw\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-20 17:55:30,035 : INFO : Homepage Verified Successfully
+2026-05-20 17:55:33,491 : INFO : Kids Section Opened Successfully
+2026-05-20 17:55:33,530 : INFO : Kids Page Verified
+2026-05-20 17:55:37,219 : INFO : Search performed for: Kids Shoes
+2026-05-20 17:55:39,744 : INFO : First Product Opened
+2026-05-20 17:55:39,859 : INFO : Product Page Verified
+2026-05-20 17:55:39,987 : INFO : Product Size Selected
+2026-05-20 17:55:40,173 : INFO : Product Added To Bag
+2026-05-20 17:55:40,277 : INFO : Product Successfully Added To Bag
+2026-05-20 17:55:42,912 : INFO : Shopping Bag Opened
+2026-05-20 17:55:43,009 : INFO : Cart Page Verified Successfully
+2026-05-20 17:55:43,041 : INFO : Closing Browser

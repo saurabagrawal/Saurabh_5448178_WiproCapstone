@@ -1,5 +1,5 @@
 import pytest
-
+from pages.cart_page import CartPage
 from pages.kids_page import KidsPage
 from utils.logger import get_logger
 from utils.config_reader import ConfigReader
@@ -33,57 +33,61 @@ from utils.excel_reader import get_excel_data
     )
 )
 
-
 def test_myntra_kids_e2e(driver, product):
 
     kids_page = KidsPage(driver)
 
+    cart_page = CartPage(driver)
+
+    # Verify Homepage
     kids_page.verify_homepage()
 
     logger.info("Homepage Verified Successfully")
 
+    # Open Kids Section
     kids_page.click_kids_section()
 
     logger.info("Kids Section Opened Successfully")
 
+    # Verify Kids Page
     kids_page.verify_kids_page_opened()
 
+    logger.info("Kids Page Verified")
+
+    # Search Product
     kids_page.search_product(product)
 
     logger.info(f"Search performed for: {product}")
 
-    kids_page.apply_brand_filter()
-
-    logger.info("Brand Filter Applied")
-
+    # Open Product
     kids_page.open_first_product()
 
     logger.info("First Product Opened")
 
-    kids_page.switch_to_product_window()
-
-    logger.info("Switched To Product Window")
-
+    # Verify Product Page
     kids_page.verify_product_page_opened()
 
     logger.info("Product Page Verified")
 
-    kids_page.select_size()
+    # Select Size
+    cart_page.select_size()
 
     logger.info("Product Size Selected")
 
-    kids_page.add_to_bag()
+    # Add To Bag
+    cart_page.add_to_bag()
 
     logger.info("Product Added To Bag")
 
-    kids_page.verify_product_added()
+    # Verify Product Added
+    cart_page.verify_product_added()
 
     logger.info("Product Successfully Added To Bag")
 
-    kids_page.open_bag()
+    cart_page.open_bag()
 
     logger.info("Shopping Bag Opened")
 
-    kids_page.verify_cart_page()
+    cart_page.verify_cart_page()
 
     logger.info("Cart Page Verified Successfully")

@@ -1,40 +1,37 @@
 import pytest
 
-from utils.driver_setup import get_driver
-from utils.config_reader import ConfigReader
-from utils.screenshot import take_screenshot
+from selenium import webdriver
+from webdriver_manager.chrome import ChromeDriverManager
+from selenium.webdriver.chrome.service import Service
+
+from utils.logger import get_logger
 
 
-config = ConfigReader()
+logger = get_logger()
 
 
-@pytest.fixture
-def driver(request):
+@pytest.fixture()
 
-    driver = get_driver()
+def driver():
 
-    driver.get(config.get("BASE_URL"))
+    logger.info("Launching Chrome Browser")
+
+    service = Service(
+        ChromeDriverManager().install()
+    )
+
+    driver = webdriver.Chrome(
+        service=service
+    )
+
+    driver.maximize_window()
+
+    driver.get(
+        "https://www.myntra.com"
+    )
 
     yield driver
 
-    # Screenshot on failure
-
-    if request.node.rep_call.failed:
-
-        take_screenshot(
-            driver,
-            request.node.name
-        )
+    logger.info("Closing Browser")
 
     driver.quit()
-
-
-@pytest.hookimpl(hookwrapper=True)
-
-def pytest_runtest_makereport(item, call):
-
-    outcome = yield
-
-    rep = outcome.get_result()
-
-    setattr(item, "rep_" + rep.when, rep)

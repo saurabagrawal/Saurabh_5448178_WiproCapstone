@@ -1,5 +1,8 @@
 import os
+import allure
+
 from datetime import datetime
+from allure_commons.types import AttachmentType
 
 
 def take_screenshot(driver, test_name):
@@ -17,3 +20,12 @@ def take_screenshot(driver, test_name):
     driver.save_screenshot(path)
 
     print(f"Screenshot saved: {path}")
+
+    # Attach screenshot to Allure Report
+    allure.attach.file(
+        path,
+        name=test_name,
+        attachment_type=AttachmentType.PNG
+    )
+
+    return path
