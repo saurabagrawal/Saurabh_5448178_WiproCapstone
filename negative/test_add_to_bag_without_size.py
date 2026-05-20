@@ -1,38 +1,17 @@
 import pytest
-
-from pages.kids_page import KidsPage
 from utils.logger import get_logger
 from utils.config_reader import ConfigReader
+from utils.csv_reader import get_test_data
 
 logger = get_logger()
 
 config = ConfigReader()
 
-# from utils.csv_reader import get_test_data
 
-# @pytest.mark.parametrize(
-#     "product",
-#     get_test_data("test_data/products.csv")
-# )
-#
-# from utils.json_reader import get_json_data
-#
-#
-# @pytest.mark.parametrize(
-#     "product",
-#     get_json_data(
-#         "test_data/product.json"
-#     )
-# )
-
-from utils.excel_reader import get_excel_data
 @pytest.mark.parametrize(
     "product",
-    get_excel_data(
-        "test_data/products.xlsx"
-    )
+    get_test_data("test_data/products.csv")
 )
-
 
 def test_myntra_kids_e2e(driver, product):
 
@@ -67,23 +46,7 @@ def test_myntra_kids_e2e(driver, product):
     kids_page.verify_product_page_opened()
 
     logger.info("Product Page Verified")
-
-    kids_page.select_size()
-
-    logger.info("Product Size Selected")
-
     kids_page.add_to_bag()
+    print("First Product Clicked")
 
-    logger.info("Product Added To Bag")
 
-    kids_page.verify_product_added()
-
-    logger.info("Product Successfully Added To Bag")
-
-    kids_page.open_bag()
-
-    logger.info("Shopping Bag Opened")
-
-    kids_page.verify_cart_page()
-
-    logger.info("Cart Page Verified Successfully")

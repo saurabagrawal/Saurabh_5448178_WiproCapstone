@@ -192,3 +192,444 @@
 2026-05-19 11:34:56,095 : INFO : Product Successfully Added To Bag
 2026-05-19 11:35:00,390 : INFO : Shopping Bag Opened
 2026-05-19 11:35:00,574 : INFO : Cart Page Verified Successfully
+2026-05-19 21:33:56,697 : INFO : xdist worker is: gw1
+2026-05-19 21:33:56,700 : INFO : ====== WebDriver manager ======
+2026-05-19 21:34:04,201 : INFO : Get LATEST chromedriver version for google-chrome
+2026-05-19 21:34:04,236 : INFO : Get LATEST chromedriver version for google-chrome
+2026-05-19 21:34:04,591 : INFO : There is no [win64] chromedriver "148.0.7778.167" for browser google-chrome "148.0.7778" in cache
+2026-05-19 21:34:04,601 : INFO : There is no [win64] chromedriver "148.0.7778.167" for browser google-chrome "148.0.7778" in cache
+2026-05-19 21:34:07,072 : INFO : There is no [win64] chromedriver "148.0.7778.167" for browser google-chrome "148.0.7778" in cache
+2026-05-19 21:34:07,073 : INFO : Get LATEST chromedriver version for google-chrome
+2026-05-19 21:34:07,083 : INFO : There is no [win64] chromedriver "148.0.7778.167" for browser google-chrome "148.0.7778" in cache
+2026-05-19 21:34:07,083 : INFO : Get LATEST chromedriver version for google-chrome
+2026-05-19 21:34:08,443 : INFO : WebDriver version 148.0.7778.167 selected
+2026-05-19 21:34:08,445 : INFO : WebDriver version 148.0.7778.167 selected
+2026-05-19 21:34:08,467 : INFO : Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/148.0.7778.167/win64/chromedriver-win64.zip
+2026-05-19 21:34:08,467 : INFO : About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/148.0.7778.167/win64/chromedriver-win64.zip
+2026-05-19 21:34:08,468 : INFO : About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/148.0.7778.167/win64/chromedriver-win64.zip
+2026-05-19 21:34:08,957 : INFO : Driver downloading response is 200
+2026-05-19 21:34:08,959 : INFO : Driver downloading response is 200
+2026-05-19 21:34:13,275 : INFO : Driver has been saved in cache [C:\Users\agarw\.wdm\gw1\drivers\chromedriver\win64\148.0.7778.167]
+2026-05-19 21:34:17,915 : INFO : Driver has been saved in cache [C:\Users\agarw\.wdm\gw0\drivers\chromedriver\win64\148.0.7778.167]
+2026-05-19 21:35:32,050 : INFO : Homepage Verified Successfully
+2026-05-19 21:35:35,588 : INFO : Kids Section Opened Successfully
+2026-05-19 21:35:56,348 : INFO : Search performed for: Kids Jeans
+2026-05-19 21:35:57,579 : INFO : Brand Filter Applied
+2026-05-19 21:36:36,129 : INFO : xdist worker is: gw0
+2026-05-19 21:36:36,134 : INFO : ====== WebDriver manager ======
+2026-05-19 21:36:38,492 : INFO : Driver [C:\Users\agarw\.wdm\gw0\drivers\chromedriver\win64\148.0.7778.167\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-19 21:50:51,617 : INFO : ====== WebDriver manager ======
+2026-05-19 21:51:07,296 : INFO : Driver [C:\Users\agarw\.wdm\drivers\chromedriver\win64\148.0.7778.167\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-19 21:51:24,801 : INFO : Homepage Verified Successfully
+2026-05-19 21:51:40,638 : INFO : Kids Section Opened Successfully
+2026-05-19 21:51:59,508 : INFO : Search performed for: Kids T-shirt
+2026-05-19 21:52:01,340 : INFO : Brand Filter Applied
+2026-05-19 21:52:05,626 : INFO : First Product Opened
+2026-05-19 21:52:06,126 : INFO : Switched To Product Window
+2026-05-19 21:52:09,216 : INFO : Product Page Verified
+2026-05-19 21:52:09,418 : INFO : Product Size Selected
+2026-05-19 21:52:10,381 : INFO : Product Added To Bag
+2026-05-19 21:52:11,172 : INFO : Product Successfully Added To Bag
+2026-05-19 21:52:15,674 : INFO : Shopping Bag Opened
+2026-05-19 21:52:15,903 : INFO : Cart Page Verified Successfully
+2026-05-19 21:53:29,011 : INFO : ====== WebDriver manager ======
+2026-05-19 21:53:36,520 : INFO : Driver [C:\Users\agarw\.wdm\drivers\chromedriver\win64\148.0.7778.167\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-19 21:54:03,439 : INFO : Homepage Verified Successfully
+2026-05-19 21:54:07,262 : INFO : Kids Section Opened Successfully
+2026-05-19 21:54:16,949 : INFO : Search performed for: Kids Jeans
+2026-05-19 21:54:18,144 : INFO : Brand Filter Applied
+2026-05-19 21:54:21,456 : INFO : First Product Opened
+2026-05-19 21:54:21,941 : INFO : Switched To Product Window
+2026-05-19 21:54:30,376 : INFO : Product Page Verified
+2026-05-19 21:54:36,250 : INFO : Product Size Selected
+2026-05-19 21:54:37,449 : INFO : Product Added To Bag
+2026-05-19 21:54:37,983 : INFO : Product Successfully Added To Bag
+2026-05-19 21:54:59,430 : INFO : Shopping Bag Opened
+2026-05-19 21:55:02,238 : INFO : Cart Page Verified Successfully
+2026-05-19 21:56:06,829 : INFO : ====== WebDriver manager ======
+2026-05-19 21:56:11,270 : INFO : Driver [C:\Users\agarw\.wdm\drivers\chromedriver\win64\148.0.7778.167\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-19 21:56:20,088 : INFO : Homepage Verified Successfully
+2026-05-19 21:56:25,151 : INFO : Kids Section Opened Successfully
+2026-05-19 21:56:28,617 : INFO : Search performed for: Kids Shoes
+2026-05-19 21:56:29,270 : INFO : Brand Filter Applied
+2026-05-19 21:56:30,857 : INFO : First Product Opened
+2026-05-19 21:56:30,967 : INFO : Switched To Product Window
+2026-05-19 21:56:33,601 : INFO : Product Page Verified
+2026-05-19 21:56:33,853 : INFO : Product Size Selected
+2026-05-19 21:56:34,161 : INFO : Product Added To Bag
+2026-05-19 21:57:05,426 : INFO : ====== WebDriver manager ======
+2026-05-19 21:57:09,678 : INFO : Driver [C:\Users\agarw\.wdm\drivers\chromedriver\win64\148.0.7778.167\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-19 21:57:23,103 : INFO : Homepage Verified Successfully
+2026-05-19 21:57:25,470 : INFO : Kids Section Opened Successfully
+2026-05-19 21:57:28,928 : INFO : Search performed for: Kids T-shirt
+2026-05-19 21:57:29,505 : INFO : Brand Filter Applied
+2026-05-19 21:57:30,952 : INFO : First Product Opened
+2026-05-19 21:57:31,493 : INFO : Switched To Product Window
+2026-05-19 21:57:37,983 : INFO : Product Page Verified
+2026-05-19 21:57:38,194 : INFO : Product Size Selected
+2026-05-19 21:57:38,483 : INFO : Product Added To Bag
+2026-05-19 21:57:40,039 : INFO : Product Successfully Added To Bag
+2026-05-19 21:57:43,244 : INFO : Shopping Bag Opened
+2026-05-19 21:57:43,403 : INFO : Cart Page Verified Successfully
+2026-05-19 22:17:16,587 : INFO : ====== WebDriver manager ======
+2026-05-19 22:17:21,485 : INFO : Driver [C:\Users\agarw\.wdm\drivers\chromedriver\win64\148.0.7778.167\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-19 22:17:41,667 : INFO : Homepage Verified
+2026-05-19 22:17:46,293 : INFO : Kids Section Opened
+2026-05-19 22:17:50,398 : INFO : Searched Product: Kids T-shirt
+2026-05-19 22:17:51,145 : INFO : Brand Filter Applied
+2026-05-19 22:17:52,265 : INFO : First Product Opened
+2026-05-19 22:17:52,947 : INFO : Switched To Product Window
+2026-05-19 22:17:56,518 : INFO : Product Page Verified
+2026-05-19 22:18:00,281 : INFO : Size Selected
+2026-05-19 22:18:00,508 : INFO : Product Added To Bag
+2026-05-19 22:19:42,814 : INFO : ====== WebDriver manager ======
+2026-05-19 22:19:46,311 : INFO : Driver [C:\Users\agarw\.wdm\drivers\chromedriver\win64\148.0.7778.167\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-19 22:19:55,091 : INFO : Homepage Verified
+2026-05-19 22:20:04,358 : INFO : Kids Section Opened
+2026-05-19 22:20:08,805 : INFO : Searched Product: Kids T-shirt
+2026-05-19 22:20:09,258 : INFO : Brand Filter Applied
+2026-05-19 22:20:11,460 : INFO : First Product Opened
+2026-05-19 22:20:11,498 : INFO : Switched To Product Window
+2026-05-19 22:20:16,231 : INFO : Product Page Verified
+2026-05-19 22:20:16,341 : INFO : Size Selected
+2026-05-19 22:20:16,823 : INFO : Product Added To Bag
+2026-05-19 22:20:17,110 : INFO : Product Added Verification Passed
+2026-05-19 22:20:22,969 : INFO : Shopping Bag Opened
+2026-05-19 22:20:23,083 : INFO : Cart Verification Passed
+2026-05-19 22:26:49,175 : INFO : ====== WebDriver manager ======
+2026-05-19 22:26:53,646 : INFO : Driver [C:\Users\agarw\.wdm\drivers\chromedriver\win64\148.0.7778.167\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-19 22:27:04,836 : INFO : Homepage Verified
+2026-05-19 22:27:07,441 : INFO : Kids Section Clicked
+2026-05-19 22:27:11,754 : INFO : Product Search Successful
+2026-05-19 22:27:46,892 : INFO : ====== WebDriver manager ======
+2026-05-19 22:27:51,802 : INFO : Driver [C:\Users\agarw\.wdm\drivers\chromedriver\win64\148.0.7778.167\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-19 22:28:06,967 : INFO : Product Search Successful
+2026-05-19 22:28:07,456 : INFO : Brand Filter Applied Successfully
+2026-05-19 22:28:52,165 : INFO : ====== WebDriver manager ======
+2026-05-19 22:28:57,172 : INFO : Driver [C:\Users\agarw\.wdm\drivers\chromedriver\win64\148.0.7778.167\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-19 22:34:53,837 : INFO : ====== WebDriver manager ======
+2026-05-19 22:34:58,043 : INFO : Driver [C:\Users\agarw\.wdm\drivers\chromedriver\win64\148.0.7778.167\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-19 22:35:16,576 : INFO : Product Search Successful
+2026-05-19 22:35:18,098 : INFO : First Product Opened
+2026-05-19 22:35:18,377 : INFO : Switched To Product Window
+2026-05-19 22:35:22,812 : INFO : Product Page Verified
+2026-05-19 22:46:11,143 : INFO : ====== WebDriver manager ======
+2026-05-19 22:46:11,143 : INFO : ====== WebDriver manager ======
+2026-05-19 22:46:15,322 : INFO : Driver [C:\Users\agarw\.wdm\drivers\chromedriver\win64\148.0.7778.167\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-19 22:46:15,322 : INFO : Driver [C:\Users\agarw\.wdm\drivers\chromedriver\win64\148.0.7778.167\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-19 22:46:25,528 : INFO : Homepage Verified
+2026-05-19 22:46:25,528 : INFO : Homepage Verified
+2026-05-19 22:46:29,072 : INFO : Shopping Bag Opened
+2026-05-19 22:46:29,072 : INFO : Shopping Bag Opened
+2026-05-19 22:46:29,172 : INFO : Empty Cart Verification Passed
+2026-05-19 22:46:29,172 : INFO : Empty Cart Verification Passed
+2026-05-19 22:46:33,160 : INFO : ====== WebDriver manager ======
+2026-05-19 22:46:33,160 : INFO : ====== WebDriver manager ======
+2026-05-19 22:46:38,375 : INFO : Driver [C:\Users\agarw\.wdm\drivers\chromedriver\win64\148.0.7778.167\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-19 22:46:38,375 : INFO : Driver [C:\Users\agarw\.wdm\drivers\chromedriver\win64\148.0.7778.167\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-19 22:46:48,248 : INFO : Homepage Verified
+2026-05-19 22:46:48,248 : INFO : Homepage Verified
+2026-05-19 22:46:52,630 : INFO : Kids Section Opened
+2026-05-19 22:46:52,630 : INFO : Kids Section Opened
+2026-05-19 22:46:56,316 : INFO : Invalid Product Searched
+2026-05-19 22:46:56,316 : INFO : Invalid Product Searched
+2026-05-19 22:46:56,784 : INFO : No Products Found Verification Passed
+2026-05-19 22:46:56,784 : INFO : No Products Found Verification Passed
+2026-05-19 22:50:15,990 : INFO : ====== WebDriver manager ======
+2026-05-19 22:50:15,990 : INFO : ====== WebDriver manager ======
+2026-05-19 22:50:22,342 : INFO : Driver [C:\Users\agarw\.wdm\drivers\chromedriver\win64\148.0.7778.167\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-19 22:50:22,342 : INFO : Driver [C:\Users\agarw\.wdm\drivers\chromedriver\win64\148.0.7778.167\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-19 22:50:31,428 : INFO : Homepage Verified
+2026-05-19 22:50:31,428 : INFO : Homepage Verified
+2026-05-19 22:50:34,326 : INFO : Shopping Bag Opened
+2026-05-19 22:50:34,326 : INFO : Shopping Bag Opened
+2026-05-19 22:50:44,434 : INFO : Empty Cart Verification Passed
+2026-05-19 22:50:44,434 : INFO : Empty Cart Verification Passed
+2026-05-19 22:50:50,454 : INFO : ====== WebDriver manager ======
+2026-05-19 22:50:50,454 : INFO : ====== WebDriver manager ======
+2026-05-19 22:50:54,115 : INFO : Driver [C:\Users\agarw\.wdm\drivers\chromedriver\win64\148.0.7778.167\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-19 22:50:54,115 : INFO : Driver [C:\Users\agarw\.wdm\drivers\chromedriver\win64\148.0.7778.167\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-19 22:51:01,388 : INFO : Homepage Verified
+2026-05-19 22:51:01,388 : INFO : Homepage Verified
+2026-05-19 22:51:03,899 : INFO : Kids Section Opened
+2026-05-19 22:51:03,899 : INFO : Kids Section Opened
+2026-05-19 22:51:07,091 : INFO : Invalid Product Searched
+2026-05-19 22:51:07,091 : INFO : Invalid Product Searched
+2026-05-19 22:51:17,316 : INFO : No Products Found Verification Passed
+2026-05-19 22:51:17,316 : INFO : No Products Found Verification Passed
+2026-05-19 22:51:34,080 : INFO : ====== WebDriver manager ======
+2026-05-19 22:51:34,080 : INFO : ====== WebDriver manager ======
+2026-05-19 22:51:37,613 : INFO : Driver [C:\Users\agarw\.wdm\drivers\chromedriver\win64\148.0.7778.167\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-19 22:51:37,613 : INFO : Driver [C:\Users\agarw\.wdm\drivers\chromedriver\win64\148.0.7778.167\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-19 22:51:45,753 : INFO : Homepage Verified
+2026-05-19 22:51:45,753 : INFO : Homepage Verified
+2026-05-19 22:51:51,163 : INFO : Shopping Bag Opened
+2026-05-19 22:51:51,163 : INFO : Shopping Bag Opened
+2026-05-19 22:52:01,300 : INFO : Empty Cart Verification Passed
+2026-05-19 22:52:01,300 : INFO : Empty Cart Verification Passed
+2026-05-19 22:52:04,796 : INFO : ====== WebDriver manager ======
+2026-05-19 22:52:04,796 : INFO : ====== WebDriver manager ======
+2026-05-19 22:52:08,549 : INFO : Driver [C:\Users\agarw\.wdm\drivers\chromedriver\win64\148.0.7778.167\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-19 22:52:08,549 : INFO : Driver [C:\Users\agarw\.wdm\drivers\chromedriver\win64\148.0.7778.167\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-19 22:52:16,458 : INFO : Homepage Verified
+2026-05-19 22:52:16,458 : INFO : Homepage Verified
+2026-05-19 22:52:19,083 : INFO : Kids Section Opened
+2026-05-19 22:52:19,083 : INFO : Kids Section Opened
+2026-05-19 22:52:22,427 : INFO : Invalid Product Searched
+2026-05-19 22:52:22,427 : INFO : Invalid Product Searched
+2026-05-19 22:52:32,694 : INFO : No Products Found Verification Passed
+2026-05-19 22:52:32,694 : INFO : No Products Found Verification Passed
+2026-05-19 22:52:56,264 : INFO : ====== WebDriver manager ======
+2026-05-19 22:52:56,264 : INFO : ====== WebDriver manager ======
+2026-05-19 22:53:00,805 : INFO : Driver [C:\Users\agarw\.wdm\drivers\chromedriver\win64\148.0.7778.167\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-19 22:53:00,805 : INFO : Driver [C:\Users\agarw\.wdm\drivers\chromedriver\win64\148.0.7778.167\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-19 22:53:11,059 : INFO : Homepage Verified
+2026-05-19 22:53:11,059 : INFO : Homepage Verified
+2026-05-19 22:53:13,799 : INFO : Shopping Bag Opened
+2026-05-19 22:53:13,799 : INFO : Shopping Bag Opened
+2026-05-19 22:53:23,895 : INFO : Empty Cart Verification Passed
+2026-05-19 22:53:23,895 : INFO : Empty Cart Verification Passed
+2026-05-19 22:53:34,250 : INFO : ====== WebDriver manager ======
+2026-05-19 22:53:34,250 : INFO : ====== WebDriver manager ======
+2026-05-19 22:53:39,446 : INFO : Driver [C:\Users\agarw\.wdm\drivers\chromedriver\win64\148.0.7778.167\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-19 22:53:39,446 : INFO : Driver [C:\Users\agarw\.wdm\drivers\chromedriver\win64\148.0.7778.167\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-19 22:53:48,624 : INFO : Homepage Verified
+2026-05-19 22:53:48,624 : INFO : Homepage Verified
+2026-05-19 22:53:51,858 : INFO : Kids Section Opened
+2026-05-19 22:53:51,858 : INFO : Kids Section Opened
+2026-05-19 22:53:55,074 : INFO : Invalid Product Searched
+2026-05-19 22:53:55,074 : INFO : Invalid Product Searched
+2026-05-19 22:54:05,327 : INFO : No Products Found Verification Passed
+2026-05-19 22:54:05,327 : INFO : No Products Found Verification Passed
+2026-05-19 22:54:14,603 : INFO : ====== WebDriver manager ======
+2026-05-19 22:54:14,603 : INFO : ====== WebDriver manager ======
+2026-05-19 22:54:18,123 : INFO : Driver [C:\Users\agarw\.wdm\drivers\chromedriver\win64\148.0.7778.167\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-19 22:54:18,123 : INFO : Driver [C:\Users\agarw\.wdm\drivers\chromedriver\win64\148.0.7778.167\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-19 22:54:25,901 : INFO : Homepage Verified
+2026-05-19 22:54:25,901 : INFO : Homepage Verified
+2026-05-19 22:54:34,413 : INFO : Shopping Bag Opened
+2026-05-19 22:54:34,413 : INFO : Shopping Bag Opened
+2026-05-19 22:54:44,508 : INFO : Empty Cart Verification Passed
+2026-05-19 22:54:44,508 : INFO : Empty Cart Verification Passed
+2026-05-19 22:54:49,123 : INFO : ====== WebDriver manager ======
+2026-05-19 22:54:49,123 : INFO : ====== WebDriver manager ======
+2026-05-19 22:54:52,692 : INFO : Driver [C:\Users\agarw\.wdm\drivers\chromedriver\win64\148.0.7778.167\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-19 22:54:52,692 : INFO : Driver [C:\Users\agarw\.wdm\drivers\chromedriver\win64\148.0.7778.167\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-19 22:55:00,120 : INFO : Homepage Verified
+2026-05-19 22:55:00,120 : INFO : Homepage Verified
+2026-05-19 22:55:02,588 : INFO : Kids Section Opened
+2026-05-19 22:55:02,588 : INFO : Kids Section Opened
+2026-05-19 22:55:06,122 : INFO : Invalid Product Searched
+2026-05-19 22:55:06,122 : INFO : Invalid Product Searched
+2026-05-19 22:55:16,335 : INFO : No Products Found Verification Passed
+2026-05-19 22:55:16,335 : INFO : No Products Found Verification Passed
+2026-05-19 23:02:12,669 : INFO : ====== WebDriver manager ======
+2026-05-19 23:02:12,669 : INFO : ====== WebDriver manager ======
+2026-05-19 23:02:18,094 : INFO : Driver [C:\Users\agarw\.wdm\drivers\chromedriver\win64\148.0.7778.167\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-19 23:02:18,094 : INFO : Driver [C:\Users\agarw\.wdm\drivers\chromedriver\win64\148.0.7778.167\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-19 23:02:28,082 : INFO : Homepage Verified
+2026-05-19 23:02:28,082 : INFO : Homepage Verified
+2026-05-19 23:02:31,104 : INFO : Kids Section Opened
+2026-05-19 23:02:31,104 : INFO : Kids Section Opened
+2026-05-19 23:02:34,317 : INFO : Product Search Successful
+2026-05-19 23:02:34,317 : INFO : Product Search Successful
+2026-05-19 23:02:35,692 : INFO : First Product Opened
+2026-05-19 23:02:35,692 : INFO : First Product Opened
+2026-05-19 23:02:36,186 : INFO : Switched To Product Window
+2026-05-19 23:02:36,186 : INFO : Switched To Product Window
+2026-05-19 23:02:42,059 : INFO : Product Page Verified
+2026-05-19 23:02:42,059 : INFO : Product Page Verified
+2026-05-19 23:02:42,462 : INFO : Clicked Add To Bag Without Selecting Size
+2026-05-19 23:02:42,462 : INFO : Clicked Add To Bag Without Selecting Size
+2026-05-19 23:03:14,186 : INFO : ====== WebDriver manager ======
+2026-05-19 23:03:14,186 : INFO : ====== WebDriver manager ======
+2026-05-19 23:03:17,912 : INFO : Driver [C:\Users\agarw\.wdm\drivers\chromedriver\win64\148.0.7778.167\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-19 23:03:17,912 : INFO : Driver [C:\Users\agarw\.wdm\drivers\chromedriver\win64\148.0.7778.167\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-19 23:03:32,420 : INFO : Homepage Verified
+2026-05-19 23:03:32,420 : INFO : Homepage Verified
+2026-05-19 23:03:38,592 : INFO : Kids Section Opened
+2026-05-19 23:03:38,592 : INFO : Kids Section Opened
+2026-05-19 23:03:45,449 : INFO : Invalid Product Searched
+2026-05-19 23:03:45,449 : INFO : Invalid Product Searched
+2026-05-19 23:03:55,858 : INFO : No Products Found Verification Passed
+2026-05-19 23:03:55,858 : INFO : No Products Found Verification Passed
+2026-05-19 23:07:17,863 : INFO : ====== WebDriver manager ======
+2026-05-19 23:07:17,863 : INFO : ====== WebDriver manager ======
+2026-05-19 23:07:21,990 : INFO : Driver [C:\Users\agarw\.wdm\drivers\chromedriver\win64\148.0.7778.167\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-19 23:07:21,990 : INFO : Driver [C:\Users\agarw\.wdm\drivers\chromedriver\win64\148.0.7778.167\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-19 23:07:35,349 : INFO : Homepage Verified
+2026-05-19 23:07:35,349 : INFO : Homepage Verified
+2026-05-19 23:07:45,354 : INFO : Kids Section Opened
+2026-05-19 23:07:45,354 : INFO : Kids Section Opened
+2026-05-19 23:07:49,233 : INFO : Product Search Successful
+2026-05-19 23:07:49,233 : INFO : Product Search Successful
+2026-05-19 23:07:50,458 : INFO : First Product Opened
+2026-05-19 23:07:50,458 : INFO : First Product Opened
+2026-05-19 23:07:50,604 : INFO : Switched To Product Window
+2026-05-19 23:07:50,604 : INFO : Switched To Product Window
+2026-05-19 23:07:54,814 : INFO : Product Page Verified
+2026-05-19 23:07:54,814 : INFO : Product Page Verified
+2026-05-19 23:07:55,034 : INFO : Clicked Add To Bag Without Selecting Size
+2026-05-19 23:07:55,034 : INFO : Clicked Add To Bag Without Selecting Size
+2026-05-19 23:08:37,016 : INFO : ====== WebDriver manager ======
+2026-05-19 23:08:37,016 : INFO : ====== WebDriver manager ======
+2026-05-19 23:08:45,001 : INFO : Driver [C:\Users\agarw\.wdm\drivers\chromedriver\win64\148.0.7778.167\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-19 23:08:45,001 : INFO : Driver [C:\Users\agarw\.wdm\drivers\chromedriver\win64\148.0.7778.167\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-19 23:08:53,999 : INFO : Homepage Verified
+2026-05-19 23:08:53,999 : INFO : Homepage Verified
+2026-05-19 23:08:57,268 : INFO : Kids Section Opened
+2026-05-19 23:08:57,268 : INFO : Kids Section Opened
+2026-05-19 23:09:01,274 : INFO : Invalid Product Searched
+2026-05-19 23:09:01,274 : INFO : Invalid Product Searched
+2026-05-19 23:09:11,567 : INFO : No Products Found Verification Passed
+2026-05-19 23:09:11,567 : INFO : No Products Found Verification Passed
+2026-05-19 23:11:39,093 : INFO : ====== WebDriver manager ======
+2026-05-19 23:11:39,093 : INFO : ====== WebDriver manager ======
+2026-05-19 23:11:42,306 : INFO : Driver [C:\Users\agarw\.wdm\drivers\chromedriver\win64\148.0.7778.167\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-19 23:11:42,306 : INFO : Driver [C:\Users\agarw\.wdm\drivers\chromedriver\win64\148.0.7778.167\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-19 23:11:48,573 : INFO : Homepage Verified
+2026-05-19 23:11:48,573 : INFO : Homepage Verified
+2026-05-19 23:11:55,910 : INFO : Kids Section Opened
+2026-05-19 23:11:55,910 : INFO : Kids Section Opened
+2026-05-19 23:11:58,391 : INFO : Kids Jeans Search Successful
+2026-05-19 23:11:58,391 : INFO : Kids Jeans Search Successful
+2026-05-19 23:11:59,981 : INFO : First Product Opened
+2026-05-19 23:11:59,981 : INFO : First Product Opened
+2026-05-19 23:12:00,012 : INFO : Switched To Product Window
+2026-05-19 23:12:00,012 : INFO : Switched To Product Window
+2026-05-19 23:12:03,155 : INFO : Product Page Verified
+2026-05-19 23:12:03,155 : INFO : Product Page Verified
+2026-05-19 23:12:03,358 : INFO : Clicked Add To Bag Without Selecting Size
+2026-05-19 23:12:03,358 : INFO : Clicked Add To Bag Without Selecting Size
+2026-05-19 23:12:34,708 : INFO : ====== WebDriver manager ======
+2026-05-19 23:12:34,708 : INFO : ====== WebDriver manager ======
+2026-05-19 23:12:37,473 : INFO : Driver [C:\Users\agarw\.wdm\drivers\chromedriver\win64\148.0.7778.167\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-19 23:12:37,473 : INFO : Driver [C:\Users\agarw\.wdm\drivers\chromedriver\win64\148.0.7778.167\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-19 23:12:43,280 : INFO : Homepage Verified
+2026-05-19 23:12:43,280 : INFO : Homepage Verified
+2026-05-19 23:12:44,673 : INFO : Kids Section Opened
+2026-05-19 23:12:44,673 : INFO : Kids Section Opened
+2026-05-19 23:12:47,320 : INFO : Invalid Product Searched
+2026-05-19 23:12:47,320 : INFO : Invalid Product Searched
+2026-05-19 23:12:57,626 : INFO : No Products Found Verification Passed
+2026-05-19 23:12:57,626 : INFO : No Products Found Verification Passed
+2026-05-19 23:18:19,176 : INFO : ====== WebDriver manager ======
+2026-05-19 23:18:19,176 : INFO : ====== WebDriver manager ======
+2026-05-19 23:18:22,121 : INFO : Driver [C:\Users\agarw\.wdm\drivers\chromedriver\win64\148.0.7778.167\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-19 23:18:22,121 : INFO : Driver [C:\Users\agarw\.wdm\drivers\chromedriver\win64\148.0.7778.167\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-19 23:18:28,842 : INFO : Homepage Verified
+2026-05-19 23:18:28,842 : INFO : Homepage Verified
+2026-05-19 23:18:35,289 : INFO : Kids Section Opened
+2026-05-19 23:18:35,289 : INFO : Kids Section Opened
+2026-05-19 23:18:38,251 : INFO : Invalid Product Searched
+2026-05-19 23:18:38,251 : INFO : Invalid Product Searched
+2026-05-19 23:18:48,634 : INFO : No Products Found Verification Passed
+2026-05-19 23:18:48,634 : INFO : No Products Found Verification Passed
+2026-05-19 23:18:57,454 : INFO : ====== WebDriver manager ======
+2026-05-19 23:18:57,454 : INFO : ====== WebDriver manager ======
+2026-05-19 23:19:00,298 : INFO : Driver [C:\Users\agarw\.wdm\drivers\chromedriver\win64\148.0.7778.167\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-19 23:19:00,298 : INFO : Driver [C:\Users\agarw\.wdm\drivers\chromedriver\win64\148.0.7778.167\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-19 23:19:06,794 : INFO : Homepage Verified
+2026-05-19 23:19:06,794 : INFO : Homepage Verified
+2026-05-19 23:19:08,578 : INFO : Kids Section Opened
+2026-05-19 23:19:08,578 : INFO : Kids Section Opened
+2026-05-19 23:19:11,093 : INFO : Product Search Successful
+2026-05-19 23:19:11,093 : INFO : Product Search Successful
+2026-05-19 23:19:12,113 : INFO : First Product Opened
+2026-05-19 23:19:12,113 : INFO : First Product Opened
+2026-05-19 23:19:12,139 : INFO : Switched To Product Window
+2026-05-19 23:19:12,139 : INFO : Switched To Product Window
+2026-05-19 23:19:15,126 : INFO : Product Page Verified
+2026-05-19 23:19:15,126 : INFO : Product Page Verified
+2026-05-19 23:19:19,038 : INFO : Wishlist Clicked
+2026-05-19 23:19:19,038 : INFO : Wishlist Clicked
+2026-05-19 23:25:44,648 : INFO : ====== WebDriver manager ======
+2026-05-19 23:25:47,722 : INFO : Driver [C:\Users\agarw\.wdm\drivers\chromedriver\win64\148.0.7778.167\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-19 23:25:53,858 : INFO : Homepage Verified
+2026-05-19 23:25:54,907 : INFO : Kids Section Opened
+2026-05-19 23:25:59,396 : INFO : Product Search Successful
+2026-05-19 23:26:00,362 : INFO : First Product Opened
+2026-05-19 23:26:00,393 : INFO : Switched To Product Window
+2026-05-19 23:26:04,188 : INFO : Product Page Verified
+2026-05-19 23:26:06,460 : INFO : Wishlist Clicked
+2026-05-19 23:31:34,880 : INFO : ====== WebDriver manager ======
+2026-05-19 23:31:38,253 : INFO : Driver [C:\Users\agarw\.wdm\drivers\chromedriver\win64\148.0.7778.167\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-19 23:31:46,815 : INFO : Homepage Verified
+2026-05-19 23:31:47,393 : INFO : Kids Section Opened
+2026-05-19 23:36:40,047 : INFO : ====== WebDriver manager ======
+2026-05-19 23:36:43,349 : INFO : Driver [C:\Users\agarw\.wdm\drivers\chromedriver\win64\148.0.7778.167\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-20 08:07:43,156 : INFO : ====== WebDriver manager ======
+2026-05-20 08:07:51,973 : INFO : Get LATEST chromedriver version for google-chrome
+2026-05-20 08:07:52,905 : INFO : There is no [win64] chromedriver "148.0.7778.178" for browser google-chrome "148.0.7778" in cache
+2026-05-20 08:07:56,064 : INFO : There is no [win64] chromedriver "148.0.7778.178" for browser google-chrome "148.0.7778" in cache
+2026-05-20 08:07:56,065 : INFO : Get LATEST chromedriver version for google-chrome
+2026-05-20 08:07:56,813 : INFO : WebDriver version 148.0.7778.178 selected
+2026-05-20 08:07:56,831 : INFO : Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/148.0.7778.178/win64/chromedriver-win64.zip
+2026-05-20 08:07:56,831 : INFO : About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/148.0.7778.178/win64/chromedriver-win64.zip
+2026-05-20 08:07:57,191 : INFO : Driver downloading response is 200
+2026-05-20 08:08:01,006 : INFO : Driver has been saved in cache [C:\Users\agarw\.wdm\drivers\chromedriver\win64\148.0.7778.178]
+2026-05-20 08:08:14,009 : INFO : Homepage Verified Successfully
+2026-05-20 08:08:17,806 : INFO : Kids Section Opened Successfully
+2026-05-20 08:08:20,458 : INFO : Search performed for: Kids Jeans
+2026-05-20 08:08:20,975 : INFO : Brand Filter Applied
+2026-05-20 08:08:22,478 : INFO : First Product Opened
+2026-05-20 08:08:22,520 : INFO : Switched To Product Window
+2026-05-20 08:08:26,604 : INFO : Product Page Verified
+2026-05-20 08:08:26,724 : INFO : Product Size Selected
+2026-05-20 08:08:27,114 : INFO : Product Added To Bag
+2026-05-20 08:08:27,252 : INFO : Product Successfully Added To Bag
+2026-05-20 08:08:30,631 : INFO : Shopping Bag Opened
+2026-05-20 08:08:30,773 : INFO : Cart Page Verified Successfully
+2026-05-20 08:26:05,427 : INFO : ====== WebDriver manager ======
+2026-05-20 08:26:08,495 : INFO : Driver [C:\Users\agarw\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-20 08:26:15,380 : INFO : Homepage Verified Successfully
+2026-05-20 08:26:18,187 : INFO : Kids Section Opened Successfully
+2026-05-20 08:26:21,457 : INFO : Search performed for: Kids Jeans
+2026-05-20 08:26:21,804 : INFO : Brand Filter Applied
+2026-05-20 08:26:22,807 : INFO : First Product Opened
+2026-05-20 08:26:23,147 : INFO : Switched To Product Window
+2026-05-20 08:26:24,705 : INFO : Product Page Verified
+2026-05-20 08:26:24,804 : INFO : Product Size Selected
+2026-05-20 08:26:25,200 : INFO : Product Added To Bag
+2026-05-20 08:26:25,223 : INFO : Product Successfully Added To Bag
+2026-05-20 08:26:27,435 : INFO : Shopping Bag Opened
+2026-05-20 08:26:27,466 : INFO : Cart Page Verified Successfully
+2026-05-20 08:26:32,187 : INFO : ====== WebDriver manager ======
+2026-05-20 08:26:34,834 : INFO : Driver [C:\Users\agarw\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-20 08:26:39,954 : INFO : Homepage Verified Successfully
+2026-05-20 08:26:41,751 : INFO : Kids Section Opened Successfully
+2026-05-20 08:26:46,528 : INFO : Search performed for: Kids Shoes
+2026-05-20 08:26:46,881 : INFO : Brand Filter Applied
+2026-05-20 08:26:47,532 : INFO : First Product Opened
+2026-05-20 08:26:47,555 : INFO : Switched To Product Window
+2026-05-20 08:26:50,031 : INFO : Product Page Verified
+2026-05-20 08:26:50,333 : INFO : Product Size Selected
+2026-05-20 08:26:50,534 : INFO : Product Added To Bag
+2026-05-20 08:27:55,242 : INFO : ====== WebDriver manager ======
+2026-05-20 08:27:57,866 : INFO : Driver [C:\Users\agarw\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-20 08:28:04,271 : INFO : Homepage Verified Successfully
+2026-05-20 08:28:08,842 : INFO : Kids Section Opened Successfully
+2026-05-20 08:28:11,275 : INFO : Search performed for: Kids Jeans
+2026-05-20 08:28:11,717 : INFO : Brand Filter Applied
+2026-05-20 08:28:12,429 : INFO : First Product Opened
+2026-05-20 08:28:12,459 : INFO : Switched To Product Window
+2026-05-20 08:28:14,779 : INFO : Product Page Verified
+2026-05-20 08:28:14,881 : INFO : Product Size Selected
+2026-05-20 08:28:15,811 : INFO : Product Added To Bag
+2026-05-20 08:28:15,834 : INFO : Product Successfully Added To Bag
+2026-05-20 08:28:18,082 : INFO : Shopping Bag Opened
+2026-05-20 08:28:18,161 : INFO : Cart Page Verified Successfully
+2026-05-20 08:29:53,479 : INFO : ====== WebDriver manager ======
+2026-05-20 08:29:56,301 : INFO : Driver [C:\Users\agarw\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-20 08:30:03,741 : INFO : Homepage Verified Successfully
+2026-05-20 08:30:06,592 : INFO : Kids Section Opened Successfully
+2026-05-20 08:30:08,755 : INFO : Search performed for: Kids Shoes
+2026-05-20 08:30:09,333 : INFO : Brand Filter Applied
+2026-05-20 08:30:09,979 : INFO : First Product Opened
+2026-05-20 08:30:10,002 : INFO : Switched To Product Window
+2026-05-20 08:30:12,512 : INFO : Product Page Verified
+2026-05-20 08:30:12,674 : INFO : Product Size Selected
+2026-05-20 08:30:12,916 : INFO : Product Added To Bag
+2026-05-20 08:30:13,049 : INFO : Product Successfully Added To Bag
+2026-05-20 08:30:15,262 : INFO : Shopping Bag Opened
+2026-05-20 08:30:15,304 : INFO : Cart Page Verified Successfully

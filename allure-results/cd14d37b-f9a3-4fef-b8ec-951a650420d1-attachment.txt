@@ -1,0 +1,14 @@
+[32mINFO    [0m WDM:logger.py:11 ====== WebDriver manager ======
+[32mINFO    [0m WDM:logger.py:11 Driver [C:\Users\agarw\.wdm\drivers\chromedriver\win64\148.0.7778.167\chromedriver-win64/chromedriver.exe] found in cache by browser version
+[32mINFO    [0m root:test_kids_e2e.py:24 Homepage Verified Successfully
+[32mINFO    [0m root:test_kids_e2e.py:28 Kids Section Opened Successfully
+[32mINFO    [0m root:test_kids_e2e.py:34 Search performed for: Kids Jeans
+[32mINFO    [0m root:test_kids_e2e.py:38 Brand Filter Applied
+[32mINFO    [0m root:test_kids_e2e.py:42 First Product Opened
+[32mINFO    [0m root:test_kids_e2e.py:46 Switched To Product Window
+[32mINFO    [0m root:test_kids_e2e.py:50 Product Page Verified
+[32mINFO    [0m root:test_kids_e2e.py:54 Product Size Selected
+[32mINFO    [0m root:test_kids_e2e.py:58 Product Added To Bag
+[32mINFO    [0m root:test_kids_e2e.py:62 Product Successfully Added To Bag
+[32mINFO    [0m root:test_kids_e2e.py:66 Shopping Bag Opened
+[32mINFO    [0m root:test_kids_e2e.py:70 Cart Page Verified Successfully

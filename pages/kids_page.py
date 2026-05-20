@@ -63,6 +63,22 @@ class KidsPage(BasePage):
         "itemContainer-base-brand"
     )
 
+    # you have to pin this for e2e
+    NO_RESULTS = (
+        By.CLASS_NAME,
+        "title-title"
+    )
+
+    WISHLIST_BUTTON = (
+        By.XPATH,
+        "//span[contains(text(),'Wishlist')]"
+    )
+
+    LOGIN_POPUP = (
+        By.XPATH,
+        "//input[@placeholder='Mobile Number*']"
+    )
+    # till here
     # VERIFY HOMEPAGE
 
     def verify_homepage(self):
@@ -237,3 +253,41 @@ class KidsPage(BasePage):
         assert cart_product.is_displayed()
 
         print("Cart Page Verified")
+
+    # VERIFY NO PRODUCTS FOUND
+
+    def verify_no_products_found(self):
+
+        no_result = self.get_element(
+            self.NO_RESULTS
+        )
+
+        assert no_result.is_displayed()
+
+        print("No Products Found Verified")
+
+    # VERIFY EMPTY CART
+    # this also pin for e2e
+    # VERIFY SIZE ERROR
+
+    # CLICK WISHLIST
+
+    def click_wishlist(self):
+
+        self.click_element(
+            self.WISHLIST_BUTTON
+        )
+
+    # VERIFY LOGIN POPUP
+
+    # VERIFY SIZE SECTION DISPLAYED
+
+    def verify_size_section(self):
+
+        size = self.get_element(
+            self.SIZE_SECTION
+        )
+
+        assert size.is_displayed()
+
+        print("Size Section Verified")
