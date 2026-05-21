@@ -1,0 +1,4 @@
+Login Popup Opened
+Mobile Number Entered
+Consent Checkbox Clicked
+Continue Button Clicked

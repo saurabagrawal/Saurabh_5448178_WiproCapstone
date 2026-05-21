@@ -1,0 +1,8 @@
+[32mINFO    [0m root:conftest.py:17 Launching Chrome Browser
+[32mINFO    [0m WDM:logger.py:11 ====== WebDriver manager ======
+[32mINFO    [0m WDM:logger.py:11 Driver [C:\Users\agarw\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+[32mINFO    [0m root:test_invalid_product_search.py:15 Homepage Verified
+[32mINFO    [0m root:test_invalid_product_search.py:20 Kids Section Opened
+[32mINFO    [0m root:test_invalid_product_search.py:25 Invalid Product Searched
+[32mINFO    [0m root:test_invalid_product_search.py:31 No Products Found Verification Passed
+[32mINFO    [0m root:conftest.py:35 Closing Browser

@@ -1,0 +1,14 @@
+[32mINFO    [0m root:conftest.py:17 Launching Chrome Browser
+[32mINFO    [0m WDM:logger.py:11 ====== WebDriver manager ======
+[32mINFO    [0m WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+[32mINFO    [0m WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+[32mINFO    [0m WDM:logger.py:11 WebDriver version 148.0.7778.178 selected
+[32mINFO    [0m WDM:logger.py:11 Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/148.0.7778.178/win64/chromedriver-win64.zip
+[32mINFO    [0m WDM:logger.py:11 About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/148.0.7778.178/win64/chromedriver-win64.zip
+[32mINFO    [0m WDM:logger.py:11 Driver downloading response is 200
+[32mINFO    [0m WDM:logger.py:11 Driver has been saved in cache [C:\Users\agarw\.wdm\drivers\chromedriver\win64\148.0.7778.178]
+[32mINFO    [0m root:test_invalid_login.py:17 Login Popup Opened
+[32mINFO    [0m root:test_invalid_login.py:27 Invalid Mobile Number Entered
+[32mINFO    [0m root:test_invalid_login.py:37 Consent Checkbox Clicked
+[32mINFO    [0m root:test_invalid_login.py:47 Continue Button Clicked
+[32mINFO    [0m root:conftest.py:35 Closing Browser
