@@ -1,8 +1,0 @@
-[32mINFO    [0m root:conftest.py:17 Launching Chrome Browser
-[32mINFO    [0m WDM:logger.py:11 ====== WebDriver manager ======
-[32mINFO    [0m WDM:logger.py:11 Driver [C:\Users\agarw\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
-[32mINFO    [0m root:test_invalid_login.py:17 Login Popup Opened
-[32mINFO    [0m root:test_invalid_login.py:27 Invalid Mobile Number Entered
-[32mINFO    [0m root:test_invalid_login.py:37 Consent Checkbox Clicked
-[32mINFO    [0m root:test_invalid_login.py:47 Continue Button Clicked
-[32mINFO    [0m root:conftest.py:35 Closing Browser
