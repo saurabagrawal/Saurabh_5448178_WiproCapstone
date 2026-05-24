@@ -1,4 +1,3 @@
-
 from behave import given, when, then
 
 from pages.kids_page import KidsPage
@@ -6,12 +5,10 @@ from pages.cart_page import CartPage
 from pages.login_page import LoginPage
 from pages.filter_page import FilterPage
 
-from utils.logger import get_logger
-from utils.screenshot import take_screenshot
-from utils.data_loader import load_test_data
-
-
-logger = get_logger()
+from utils.screenshot_util import ScreenshotUtil
+from utils.excel_reader import ExcelReader
+from utils.logger import LogGen
+logger = LogGen.loggen()
 
 urls = load_test_data(
     "urls.json"
@@ -63,9 +60,8 @@ def verify_homepage(context):
         "Homepage Verified"
     )
 
-    take_screenshot(
+    ScreenshotUtil.capture_screenshot(
         context.driver,
-        "homepage",
         "homepage_verified"
     )
 
@@ -91,9 +87,8 @@ def open_kids_section(context):
         "Kids Section Opened"
     )
 
-    take_screenshot(
+    ScreenshotUtil.capture_screenshot(
         context.driver,
-        "kids",
         "kids_section_opened"
     )
 
@@ -125,9 +120,8 @@ def search_product(context, product):
         f"Product Search Successful: {product}"
     )
 
-    take_screenshot(
+    ScreenshotUtil.capture_screenshot(
         context.driver,
-        "search",
         "product_search"
     )
 
@@ -148,9 +142,8 @@ def verify_no_products(context):
         "No Products Found Verification Passed"
     )
 
-    take_screenshot(
+    ScreenshotUtil.capture_screenshot(
         context.driver,
-        "negative",
         "no_products_found"
     )
 
@@ -168,9 +161,8 @@ def apply_brand_filter(context):
         "Brand Filter Applied"
     )
 
-    take_screenshot(
+    ScreenshotUtil.capture_screenshot(
         context.driver,
-        "filters",
         "brand_filter_applied"
     )
 
@@ -200,9 +192,8 @@ def open_first_product(context):
         "First Product Opened"
     )
 
-    take_screenshot(
+    ScreenshotUtil.capture_screenshot(
         context.driver,
-        "products",
         "first_product_opened"
     )
 
@@ -218,9 +209,8 @@ def verify_product_page(context):
         "Product Page Verified"
     )
 
-    take_screenshot(
+    ScreenshotUtil.capture_screenshot(
         context.driver,
-        "products",
         "product_page_verified"
     )
 
@@ -238,9 +228,8 @@ def select_size(context):
         "Size Selected"
     )
 
-    take_screenshot(
+    ScreenshotUtil.capture_screenshot(
         context.driver,
-        "cart",
         "size_selected"
     )
 
@@ -258,9 +247,8 @@ def add_to_bag(context):
         "Product Added To Bag"
     )
 
-    take_screenshot(
+    ScreenshotUtil.capture_screenshot(
         context.driver,
-        "cart",
         "product_added_to_bag"
     )
 
@@ -276,9 +264,8 @@ def verify_product_added(context):
         "Add To Bag Verified"
     )
 
-    take_screenshot(
+    ScreenshotUtil.capture_screenshot(
         context.driver,
-        "cart",
         "add_to_bag_verified"
     )
 
@@ -296,9 +283,8 @@ def open_login_popup(context):
         "Login Popup Opened"
     )
 
-    take_screenshot(
+    ScreenshotUtil.capture_screenshot(
         context.driver,
-        "login",
         "login_popup_opened"
     )
 
@@ -318,9 +304,8 @@ def enter_mobile(context, number):
         f"Mobile Number Entered: {number}"
     )
 
-    take_screenshot(
+    ScreenshotUtil.capture_screenshot(
         context.driver,
-        "login",
         "mobile_number_entered"
     )
 
@@ -338,9 +323,8 @@ def click_checkbox(context):
         "Consent Checkbox Clicked"
     )
 
-    take_screenshot(
+    ScreenshotUtil.capture_screenshot(
         context.driver,
-        "login",
         "checkbox_clicked"
     )
 
@@ -358,9 +342,8 @@ def click_continue(context):
         "Continue Button Clicked"
     )
 
-    take_screenshot(
+    ScreenshotUtil.capture_screenshot(
         context.driver,
-        "login",
         "continue_clicked"
     )
 
@@ -380,9 +363,8 @@ def verify_otp(context):
         "OTP Page Assertion Passed"
     )
 
-    take_screenshot(
+    ScreenshotUtil.capture_screenshot(
         context.driver,
-        "login",
         "otp_page_verified"
     )
 
@@ -402,9 +384,7 @@ def verify_invalid_mobile(context):
         "Invalid Login Error Verification Passed"
     )
 
-    take_screenshot(
+    ScreenshotUtil.capture_screenshot(
         context.driver,
-        "negative",
         "invalid_login_verified"
     )
-
