@@ -2,7 +2,7 @@ import allure
 import os
 from selenium import webdriver
 from utils.config_reader import ConfigReader
-from utils.logger import LogGen
+from utils.setup_logger import LogGen
 
 logger = LogGen.loggen()
 

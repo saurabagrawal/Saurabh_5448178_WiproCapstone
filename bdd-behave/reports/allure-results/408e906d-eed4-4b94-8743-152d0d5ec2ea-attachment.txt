@@ -1,0 +1,1114 @@
+2026-05-24 08:04:49,261 : INFO : ===================================
+2026-05-24 08:04:49,262 : INFO : STARTING SCENARIO: Complete Kids Purchase Flow -- @1.1 
+2026-05-24 08:05:02,983 : INFO : Myntra Website Launched
+2026-05-24 08:05:03,290 : INFO : Homepage Verified Successfully
+2026-05-24 08:05:04,158 : INFO : Screenshot saved at : reports/screenshots/Homepage_20260524_080503.png
+2026-05-24 08:05:05,166 : INFO : Kids Section Opened Successfully
+2026-05-24 08:05:06,268 : INFO : Screenshot saved at : reports/screenshots/Kids_Section_20260524_080505.png
+2026-05-24 08:05:06,420 : INFO : Kids Page Verified
+2026-05-24 08:05:11,004 : INFO : Search performed for: Kids T-shirt
+2026-05-24 08:05:11,425 : INFO : Screenshot saved at : reports/screenshots/Product_Search_20260524_080511.png
+2026-05-24 08:05:13,564 : INFO : First Product Opened
+2026-05-24 08:05:13,848 : INFO : Product Page Verified
+2026-05-24 08:05:14,338 : INFO : Screenshot saved at : reports/screenshots/Product_Page_20260524_080513.png
+2026-05-24 08:05:14,839 : INFO : Product Size Selected
+2026-05-24 08:05:14,987 : INFO : Product Added To Bag
+2026-05-24 08:05:15,048 : INFO : Product Successfully Added To Bag
+2026-05-24 08:05:15,515 : INFO : Screenshot saved at : reports/screenshots/Added_To_Bag_20260524_080515.png
+2026-05-24 08:05:17,385 : INFO : Shopping Bag Opened
+2026-05-24 08:05:17,669 : INFO : Cart Page Verified Successfully
+2026-05-24 08:05:17,921 : INFO : Screenshot saved at : reports/screenshots/Cart_Page_20260524_080517.png
+2026-05-24 08:05:17,985 : INFO : Changing quantity to 2
+2026-05-24 08:05:18,474 : INFO : Selecting donation ₹10
+2026-05-24 08:05:18,663 : INFO : Clicking Place Order
+2026-05-24 08:05:24,744 : INFO : Redirected URL: https://www.myntra.com/login?referer=/checkout/cart
+2026-05-24 08:05:25,790 : INFO : Valid Mobile Number Entered
+2026-05-24 08:05:26,113 : INFO : Screenshot saved at : reports/screenshots/Valid_Mobile_Number_Entered_20260524_080525.png
+2026-05-24 08:05:26,307 : INFO : Consent Checkbox Clicked
+2026-05-24 08:05:26,568 : INFO : Screenshot saved at : reports/screenshots/Consent_Checkbox_Clicked_20260524_080526.png
+2026-05-24 08:05:26,685 : INFO : Continue Button Clicked
+2026-05-24 08:05:26,971 : INFO : Screenshot saved at : reports/screenshots/Continue_Button_Clicked_20260524_080526.png
+2026-05-24 08:05:27,236 : INFO : OTP Page Assertion Passed
+2026-05-24 08:05:27,927 : INFO : Complete E2E Test Passed Successfully
+2026-05-24 08:05:27,947 : INFO : SCENARIO STATUS: Status.passed
+2026-05-24 08:05:28,943 : INFO : Log file attached to Allure
+2026-05-24 08:05:50,434 : INFO : COMPLETED SCENARIO: Complete Kids Purchase Flow -- @1.1 
+2026-05-24 08:05:50,462 : INFO : ===================================
+2026-05-24 08:05:50,609 : INFO : ===================================
+2026-05-24 08:05:50,704 : INFO : STARTING SCENARIO: Complete Kids Purchase Flow -- @1.2 
+2026-05-24 08:06:02,133 : INFO : Myntra Website Launched
+2026-05-24 08:06:02,453 : INFO : Homepage Verified Successfully
+2026-05-24 08:06:03,061 : INFO : Screenshot saved at : reports/screenshots/Homepage_20260524_080602.png
+2026-05-24 08:06:03,666 : INFO : Kids Section Opened Successfully
+2026-05-24 08:06:04,894 : INFO : Screenshot saved at : reports/screenshots/Kids_Section_20260524_080603.png
+2026-05-24 08:06:05,174 : INFO : Kids Page Verified
+2026-05-24 08:06:07,554 : INFO : Search performed for: Boys Jeans
+2026-05-24 08:06:07,835 : INFO : Screenshot saved at : reports/screenshots/Product_Search_20260524_080607.png
+2026-05-24 08:06:09,905 : INFO : First Product Opened
+2026-05-24 08:06:10,004 : INFO : Product Page Verified
+2026-05-24 08:06:10,332 : INFO : Screenshot saved at : reports/screenshots/Product_Page_20260524_080610.png
+2026-05-24 08:06:10,551 : INFO : Product Size Selected
+2026-05-24 08:06:10,661 : INFO : Product Added To Bag
+2026-05-24 08:06:10,735 : INFO : Product Successfully Added To Bag
+2026-05-24 08:06:11,186 : INFO : Screenshot saved at : reports/screenshots/Added_To_Bag_20260524_080610.png
+2026-05-24 08:06:14,374 : INFO : Shopping Bag Opened
+2026-05-24 08:06:14,551 : INFO : Cart Page Verified Successfully
+2026-05-24 08:06:14,751 : INFO : Screenshot saved at : reports/screenshots/Cart_Page_20260524_080614.png
+2026-05-24 08:06:14,838 : INFO : Changing quantity to 2
+2026-05-24 08:06:36,211 : INFO : SCENARIO STATUS: Status.error
+2026-05-24 08:06:36,486 : INFO : Log file attached to Allure
+2026-05-24 08:06:43,109 : INFO : COMPLETED SCENARIO: Complete Kids Purchase Flow -- @1.2 
+2026-05-24 08:06:43,109 : INFO : ===================================
+2026-05-24 08:11:18,668 : INFO : ===================================
+2026-05-24 08:11:18,669 : INFO : STARTING SCENARIO: Verify add product to bag successfully
+2026-05-24 08:11:27,496 : INFO : Myntra Website Launched
+2026-05-24 08:11:27,672 : INFO : Homepage Verified
+2026-05-24 08:11:28,493 : INFO : Screenshot saved at : reports/screenshots/Homepage_Verified_20260524_081127.png
+2026-05-24 08:11:28,825 : INFO : Kids Section Opened
+2026-05-24 08:11:29,712 : INFO : Screenshot saved at : reports/screenshots/Kids_Section_Opened_20260524_081128.png
+2026-05-24 08:11:29,866 : INFO : Kids Section Verified
+2026-05-24 08:11:33,481 : INFO : Product Searched: Kids T-shirt
+2026-05-24 08:11:33,886 : INFO : Screenshot saved at : reports/screenshots/Product_Search_20260524_081133.png
+2026-05-24 08:11:36,776 : INFO : First Product Opened
+2026-05-24 08:11:37,265 : INFO : Screenshot saved at : reports/screenshots/First_Product_20260524_081136.png
+2026-05-24 08:11:37,332 : INFO : Product Page Verified
+2026-05-24 08:11:37,762 : INFO : Screenshot saved at : reports/screenshots/Product_Page_20260524_081137.png
+2026-05-24 08:11:38,054 : INFO : Size Selected
+2026-05-24 08:11:38,566 : INFO : Screenshot saved at : reports/screenshots/Size_Selected_20260524_081138.png
+2026-05-24 08:11:38,770 : INFO : Product Added To Bag
+2026-05-24 08:11:39,493 : INFO : Screenshot saved at : reports/screenshots/Add_To_Bag_20260524_081138.png
+2026-05-24 08:11:39,802 : INFO : Product Added Verification Passed
+2026-05-24 08:11:39,808 : INFO : SCENARIO STATUS: Status.passed
+2026-05-24 08:11:40,487 : INFO : Log file attached to Allure
+2026-05-24 08:11:43,358 : INFO : COMPLETED SCENARIO: Verify add product to bag successfully
+2026-05-24 08:11:43,358 : INFO : ===================================
+2026-05-24 08:11:43,368 : INFO : ===================================
+2026-05-24 08:11:43,370 : INFO : STARTING SCENARIO: Verify brand filter functionality
+2026-05-24 08:11:49,933 : INFO : Myntra Website Launched
+2026-05-24 08:11:50,074 : INFO : Homepage Verified
+2026-05-24 08:11:50,772 : INFO : Screenshot saved at : reports/screenshots/Homepage_Verified_20260524_081150.png
+2026-05-24 08:11:51,848 : INFO : Kids Section Opened
+2026-05-24 08:11:52,202 : INFO : Screenshot saved at : reports/screenshots/Kids_Section_Opened_20260524_081151.png
+2026-05-24 08:11:52,249 : INFO : Kids Section Verified
+2026-05-24 08:11:54,330 : INFO : Product Searched: Girls Tops
+2026-05-24 08:11:54,733 : INFO : Screenshot saved at : reports/screenshots/Product_Search_20260524_081154.png
+2026-05-24 08:11:55,066 : INFO : Brand Filter Applied
+2026-05-24 08:11:55,534 : INFO : Screenshot saved at : reports/screenshots/Brand_Filter_20260524_081155.png
+2026-05-24 08:11:56,148 : INFO : Brand Filter Verified
+2026-05-24 08:11:56,157 : INFO : SCENARIO STATUS: Status.passed
+2026-05-24 08:11:56,492 : INFO : Log file attached to Allure
+2026-05-24 08:11:59,509 : INFO : COMPLETED SCENARIO: Verify brand filter functionality
+2026-05-24 08:11:59,510 : INFO : ===================================
+2026-05-24 08:11:59,520 : INFO : ===================================
+2026-05-24 08:11:59,521 : INFO : STARTING SCENARIO: Verify product details page
+2026-05-24 08:12:05,310 : INFO : Myntra Website Launched
+2026-05-24 08:12:05,526 : INFO : Homepage Verified
+2026-05-24 08:12:06,087 : INFO : Screenshot saved at : reports/screenshots/Homepage_Verified_20260524_081205.png
+2026-05-24 08:12:07,328 : INFO : Kids Section Opened
+2026-05-24 08:12:07,630 : INFO : Screenshot saved at : reports/screenshots/Kids_Section_Opened_20260524_081207.png
+2026-05-24 08:12:07,672 : INFO : Kids Section Verified
+2026-05-24 08:12:09,844 : INFO : Product Searched: Kids T-shirt
+2026-05-24 08:12:10,129 : INFO : Screenshot saved at : reports/screenshots/Product_Search_20260524_081209.png
+2026-05-24 08:12:11,673 : INFO : First Product Opened
+2026-05-24 08:12:12,121 : INFO : Screenshot saved at : reports/screenshots/First_Product_20260524_081211.png
+2026-05-24 08:12:12,226 : INFO : Product Page Verified
+2026-05-24 08:12:12,596 : INFO : Screenshot saved at : reports/screenshots/Product_Page_20260524_081212.png
+2026-05-24 08:12:12,635 : INFO : SCENARIO STATUS: Status.passed
+2026-05-24 08:12:13,047 : INFO : Log file attached to Allure
+2026-05-24 08:12:15,706 : INFO : COMPLETED SCENARIO: Verify product details page
+2026-05-24 08:12:15,707 : INFO : ===================================
+2026-05-24 08:12:15,718 : INFO : ===================================
+2026-05-24 08:12:15,731 : INFO : STARTING SCENARIO: Verify valid login functionality
+2026-05-24 08:12:21,201 : INFO : Myntra Website Launched
+2026-05-24 08:12:26,719 : INFO : Login Popup Opened
+2026-05-24 08:12:27,042 : INFO : Screenshot saved at : reports/screenshots/Login_Popup_20260524_081226.png
+2026-05-24 08:12:27,979 : INFO : Mobile Number Entered: 9152358202
+2026-05-24 08:12:28,236 : INFO : Screenshot saved at : reports/screenshots/Mobile_Number_20260524_081227.png
+2026-05-24 08:12:28,333 : INFO : Consent Checkbox Clicked
+2026-05-24 08:12:28,589 : INFO : Screenshot saved at : reports/screenshots/Consent_Checkbox_20260524_081228.png
+2026-05-24 08:12:28,725 : INFO : Continue Button Clicked
+2026-05-24 08:12:29,062 : INFO : Screenshot saved at : reports/screenshots/Continue_Button_20260524_081228.png
+2026-05-24 08:12:29,232 : INFO : OTP Page Verified
+2026-05-24 08:12:29,566 : INFO : Screenshot saved at : reports/screenshots/OTP_Page_20260524_081229.png
+2026-05-24 08:12:29,600 : INFO : SCENARIO STATUS: Status.passed
+2026-05-24 08:12:29,931 : INFO : Log file attached to Allure
+2026-05-24 08:12:33,060 : INFO : COMPLETED SCENARIO: Verify valid login functionality
+2026-05-24 08:12:33,062 : INFO : ===================================
+2026-05-24 08:13:34,272 : INFO : ===================================
+2026-05-24 08:13:34,273 : INFO : STARTING SCENARIO: Verify invalid login functionality
+2026-05-24 08:13:43,174 : INFO : Myntra Website Launched
+2026-05-24 08:13:49,209 : INFO : Login Popup Opened
+2026-05-24 08:13:49,496 : INFO : Screenshot saved at : reports/screenshots/Login_Popup_20260524_081349.png
+2026-05-24 08:13:50,181 : INFO : Mobile Number Entered: 12345
+2026-05-24 08:13:50,464 : INFO : Screenshot saved at : reports/screenshots/Mobile_Number_20260524_081350.png
+2026-05-24 08:13:50,563 : INFO : Consent Checkbox Clicked
+2026-05-24 08:13:50,814 : INFO : Screenshot saved at : reports/screenshots/Consent_Checkbox_20260524_081350.png
+2026-05-24 08:13:50,904 : INFO : Continue Button Clicked
+2026-05-24 08:13:51,154 : INFO : Screenshot saved at : reports/screenshots/Continue_Button_20260524_081350.png
+2026-05-24 08:13:51,255 : INFO : Invalid Mobile Validation Passed
+2026-05-24 08:13:51,521 : INFO : Screenshot saved at : reports/screenshots/Invalid_Mobile_20260524_081351.png
+2026-05-24 08:13:51,549 : INFO : SCENARIO STATUS: Status.passed
+2026-05-24 08:13:51,963 : INFO : Log file attached to Allure
+2026-05-24 08:13:54,487 : INFO : COMPLETED SCENARIO: Verify invalid login functionality
+2026-05-24 08:13:54,487 : INFO : ===================================
+2026-05-24 08:13:54,496 : INFO : ===================================
+2026-05-24 08:13:54,497 : INFO : STARTING SCENARIO: Verify invalid product search functionality
+2026-05-24 08:14:00,356 : INFO : Myntra Website Launched
+2026-05-24 08:14:00,452 : INFO : Homepage Verified
+2026-05-24 08:14:00,934 : INFO : Screenshot saved at : reports/screenshots/Homepage_Verified_20260524_081400.png
+2026-05-24 08:14:02,171 : INFO : Kids Section Opened
+2026-05-24 08:14:02,502 : INFO : Screenshot saved at : reports/screenshots/Kids_Section_Opened_20260524_081402.png
+2026-05-24 08:14:02,648 : INFO : Kids Section Verified
+2026-05-24 08:14:04,938 : INFO : Product Searched: asdkjasdhj
+2026-05-24 08:14:05,378 : INFO : Screenshot saved at : reports/screenshots/Product_Search_20260524_081404.png
+2026-05-24 08:14:05,457 : INFO : No Products Found
+2026-05-24 08:14:05,880 : INFO : Screenshot saved at : reports/screenshots/No_Products_Found_20260524_081405.png
+2026-05-24 08:14:05,909 : INFO : SCENARIO STATUS: Status.passed
+2026-05-24 08:14:06,357 : INFO : Log file attached to Allure
+2026-05-24 08:14:09,068 : INFO : COMPLETED SCENARIO: Verify invalid product search functionality
+2026-05-24 08:14:09,070 : INFO : ===================================
+2026-05-24 08:17:00,171 : INFO : ========================================
+2026-05-24 08:17:00,171 : INFO : AUTOMATION EXECUTION STARTED
+2026-05-24 08:17:00,172 : INFO : Deleting old allure-results folder
+2026-05-24 08:17:00,283 : INFO : Starting Behave Execution
+2026-05-24 08:17:02,351 : INFO : ===================================
+2026-05-24 08:17:02,352 : INFO : STARTING SCENARIO: Verify invalid login functionality
+2026-05-24 08:17:12,920 : INFO : Myntra Website Launched
+2026-05-24 08:17:19,191 : INFO : Login Popup Opened
+2026-05-24 08:17:19,588 : INFO : Screenshot saved at : reports/screenshots/Login_Popup_20260524_081719.png
+2026-05-24 08:17:20,942 : INFO : Mobile Number Entered: 12345
+2026-05-24 08:17:21,214 : INFO : Screenshot saved at : reports/screenshots/Mobile_Number_20260524_081720.png
+2026-05-24 08:17:21,370 : INFO : Consent Checkbox Clicked
+2026-05-24 08:17:21,642 : INFO : Screenshot saved at : reports/screenshots/Consent_Checkbox_20260524_081721.png
+2026-05-24 08:17:21,737 : INFO : Continue Button Clicked
+2026-05-24 08:17:21,991 : INFO : Screenshot saved at : reports/screenshots/Continue_Button_20260524_081721.png
+2026-05-24 08:17:22,067 : INFO : Invalid Mobile Validation Passed
+2026-05-24 08:17:22,331 : INFO : Screenshot saved at : reports/screenshots/Invalid_Mobile_20260524_081722.png
+2026-05-24 08:17:22,362 : INFO : SCENARIO STATUS: Status.passed
+2026-05-24 08:17:22,710 : INFO : Log file attached to Allure
+2026-05-24 08:17:28,783 : INFO : COMPLETED SCENARIO: Verify invalid login functionality
+2026-05-24 08:17:28,784 : INFO : ===================================
+2026-05-24 08:17:28,845 : INFO : ===================================
+2026-05-24 08:17:28,846 : INFO : STARTING SCENARIO: Verify invalid product search functionality
+2026-05-24 08:17:38,266 : INFO : Myntra Website Launched
+2026-05-24 08:17:38,358 : INFO : Homepage Verified
+2026-05-24 08:17:39,075 : INFO : Screenshot saved at : reports/screenshots/Homepage_Verified_20260524_081738.png
+2026-05-24 08:17:40,763 : INFO : Kids Section Opened
+2026-05-24 08:17:41,184 : INFO : Screenshot saved at : reports/screenshots/Kids_Section_Opened_20260524_081740.png
+2026-05-24 08:17:41,273 : INFO : Kids Section Verified
+2026-05-24 08:17:44,170 : INFO : Product Searched: asdkjasdhj
+2026-05-24 08:17:44,592 : INFO : Screenshot saved at : reports/screenshots/Product_Search_20260524_081744.png
+2026-05-24 08:17:44,705 : INFO : No Products Found
+2026-05-24 08:17:45,141 : INFO : Screenshot saved at : reports/screenshots/No_Products_Found_20260524_081744.png
+2026-05-24 08:17:45,241 : INFO : SCENARIO STATUS: Status.passed
+2026-05-24 08:17:45,854 : INFO : Log file attached to Allure
+2026-05-24 08:17:48,812 : INFO : COMPLETED SCENARIO: Verify invalid product search functionality
+2026-05-24 08:17:48,813 : INFO : ===================================
+2026-05-24 08:17:49,434 : INFO : Behave completed with status code: 0
+2026-05-24 08:17:49,441 : INFO : Generating Allure Report
+2026-05-24 08:17:54,475 : INFO : Allure report generated with status code: 0
+2026-05-24 08:17:54,476 : INFO : Opening Allure Report
+2026-05-24 08:27:19,790 : INFO : ========================================
+2026-05-24 08:27:19,791 : INFO : AUTOMATION EXECUTION STARTED
+2026-05-24 08:27:19,791 : INFO : Deleting old allure-results folder
+2026-05-24 08:27:19,817 : INFO : Deleting old allure-report folder
+2026-05-24 08:27:19,885 : INFO : Starting Behave Execution
+2026-05-24 08:27:21,902 : INFO : ===================================
+2026-05-24 08:27:21,902 : INFO : STARTING SCENARIO: Verify invalid login functionality
+2026-05-24 08:27:31,703 : INFO : Myntra Website Launched
+2026-05-24 08:27:34,695 : INFO : Login Popup Opened
+2026-05-24 08:27:35,044 : INFO : Screenshot saved at : reports/screenshots/Login_Popup_20260524_082734.png
+2026-05-24 08:27:36,606 : INFO : Mobile Number Entered: 12345
+2026-05-24 08:27:36,847 : INFO : Screenshot saved at : reports/screenshots/Mobile_Number_20260524_082736.png
+2026-05-24 08:27:37,113 : INFO : Consent Checkbox Clicked
+2026-05-24 08:27:37,517 : INFO : Screenshot saved at : reports/screenshots/Consent_Checkbox_20260524_082737.png
+2026-05-24 08:27:37,669 : INFO : Continue Button Clicked
+2026-05-24 08:27:37,954 : INFO : Screenshot saved at : reports/screenshots/Continue_Button_20260524_082737.png
+2026-05-24 08:27:38,201 : INFO : Invalid Mobile Validation Passed
+2026-05-24 08:27:38,453 : INFO : Screenshot saved at : reports/screenshots/Invalid_Mobile_20260524_082738.png
+2026-05-24 08:27:38,549 : INFO : SCENARIO STATUS: Status.passed
+2026-05-24 08:27:38,862 : INFO : Log file attached to Allure
+2026-05-24 08:27:41,634 : INFO : COMPLETED SCENARIO: Verify invalid login functionality
+2026-05-24 08:27:41,635 : INFO : ===================================
+2026-05-24 08:27:41,665 : INFO : ===================================
+2026-05-24 08:27:41,666 : INFO : STARTING SCENARIO: Verify invalid product search functionality
+2026-05-24 08:27:53,317 : INFO : Myntra Website Launched
+2026-05-24 08:27:53,452 : INFO : Homepage Verified
+2026-05-24 08:27:54,181 : INFO : Screenshot saved at : reports/screenshots/Homepage_Verified_20260524_082753.png
+2026-05-24 08:27:54,690 : INFO : Kids Section Opened
+2026-05-24 08:27:55,769 : INFO : Screenshot saved at : reports/screenshots/Kids_Section_Opened_20260524_082754.png
+2026-05-24 08:27:55,892 : INFO : Kids Section Verified
+2026-05-24 08:27:59,087 : INFO : Product Searched: asdkjasdhj
+2026-05-24 08:27:59,648 : INFO : Screenshot saved at : reports/screenshots/Product_Search_20260524_082759.png
+2026-05-24 08:27:59,873 : INFO : No Products Found
+2026-05-24 08:28:00,422 : INFO : Screenshot saved at : reports/screenshots/No_Products_Found_20260524_082759.png
+2026-05-24 08:28:00,470 : INFO : SCENARIO STATUS: Status.passed
+2026-05-24 08:28:01,101 : INFO : Log file attached to Allure
+2026-05-24 08:28:09,323 : INFO : COMPLETED SCENARIO: Verify invalid product search functionality
+2026-05-24 08:28:09,324 : INFO : ===================================
+2026-05-24 08:28:09,989 : INFO : Behave completed with status code: 0
+2026-05-24 08:28:10,001 : INFO : Generating Allure Report
+2026-05-24 08:28:15,041 : INFO : Allure report generated with status code: 0
+2026-05-24 08:28:15,041 : INFO : Opening Allure Report
+2026-05-24 08:29:19,644 : INFO : ========================================
+2026-05-24 08:29:19,645 : INFO : AUTOMATION EXECUTION STARTED
+2026-05-24 08:29:19,645 : INFO : Deleting old allure-results folder
+2026-05-24 08:29:19,670 : INFO : Deleting old allure-report folder
+2026-05-24 08:29:19,738 : INFO : Starting Behave Execution
+2026-05-24 08:29:22,347 : INFO : Behave completed with status code: 1
+2026-05-24 08:29:22,347 : INFO : Generating Allure Report
+2026-05-24 08:29:27,831 : INFO : Allure report generated with status code: 0
+2026-05-24 08:29:27,831 : INFO : Opening Allure Report
+2026-05-24 08:31:32,956 : INFO : ========================================
+2026-05-24 08:31:32,957 : INFO : AUTOMATION EXECUTION STARTED
+2026-05-24 08:31:32,957 : INFO : Deleting old allure-report folder
+2026-05-24 08:31:32,995 : INFO : Starting Behave Execution
+2026-05-24 08:31:35,100 : INFO : Behave completed with status code: 1
+2026-05-24 08:31:35,100 : INFO : Generating Allure Report
+2026-05-24 08:31:39,346 : INFO : Allure report generated with status code: 0
+2026-05-24 08:31:39,346 : INFO : Opening Allure Report
+2026-05-24 08:48:05,194 : INFO : ========================================
+2026-05-24 08:48:05,195 : INFO : AUTOMATION EXECUTION STARTED
+2026-05-24 08:48:05,196 : INFO : Deleting old allure-report folder
+2026-05-24 08:48:05,239 : INFO : Starting Behave Execution
+2026-05-24 08:48:08,184 : INFO : Behave completed with status code: 1
+2026-05-24 08:48:08,185 : INFO : Generating Allure Report
+2026-05-24 08:48:15,911 : INFO : Allure report generated with status code: 0
+2026-05-24 08:48:15,912 : INFO : Opening Allure Report
+2026-05-24 08:52:54,903 : INFO : ========================================
+2026-05-24 08:52:54,903 : INFO : AUTOMATION EXECUTION STARTED
+2026-05-24 08:52:54,904 : INFO : Deleting old allure-report folder
+2026-05-24 08:52:54,950 : INFO : Starting Behave Execution
+2026-05-24 08:52:57,391 : INFO : Behave completed with status code: 1
+2026-05-24 08:52:57,392 : INFO : Generating Allure Report
+2026-05-24 08:53:03,945 : INFO : Allure report generated with status code: 0
+2026-05-24 08:53:03,945 : INFO : Opening Allure Report
+2026-05-24 08:54:27,052 : INFO : ========================================
+2026-05-24 08:54:27,053 : INFO : AUTOMATION EXECUTION STARTED
+2026-05-24 08:54:27,054 : INFO : Deleting old allure-report folder
+2026-05-24 08:54:27,099 : INFO : Starting Behave Execution
+2026-05-24 08:54:29,693 : INFO : Behave completed with status code: 1
+2026-05-24 08:54:29,693 : INFO : Generating Allure Report
+2026-05-24 08:54:34,229 : INFO : Allure report generated with status code: 0
+2026-05-24 08:54:34,229 : INFO : Opening Allure Report
+2026-05-24 09:06:25,045 : INFO : ========================================
+2026-05-24 09:06:25,045 : INFO : AUTOMATION EXECUTION STARTED
+2026-05-24 09:06:25,046 : INFO : Deleting old allure-report folder
+2026-05-24 09:06:25,083 : INFO : Starting Behave Execution
+2026-05-24 09:06:27,146 : INFO : Behave completed with status code: 1
+2026-05-24 09:06:27,146 : INFO : Generating Allure Report
+2026-05-24 09:06:31,105 : INFO : Allure report generated with status code: 0
+2026-05-24 09:06:31,105 : INFO : Opening Allure Report
+2026-05-24 09:07:59,803 : INFO : ========================================
+2026-05-24 09:07:59,803 : INFO : AUTOMATION EXECUTION STARTED
+2026-05-24 09:07:59,804 : INFO : Deleting old allure-report folder
+2026-05-24 09:07:59,842 : INFO : Starting Behave Execution
+2026-05-24 09:08:01,868 : INFO : Behave completed with status code: 1
+2026-05-24 09:08:01,868 : INFO : Generating Allure Report
+2026-05-24 09:08:06,308 : INFO : Allure report generated with status code: 0
+2026-05-24 09:08:06,308 : INFO : Opening Allure Report
+2026-05-24 09:10:38,167 : INFO : ========================================
+2026-05-24 09:10:38,168 : INFO : AUTOMATION EXECUTION STARTED
+2026-05-24 09:10:38,169 : INFO : Deleting old allure-report folder
+2026-05-24 09:10:38,210 : INFO : Starting Behave Execution
+2026-05-24 09:10:40,220 : INFO : Behave completed with status code: 1
+2026-05-24 09:10:40,220 : INFO : Generating Allure Report
+2026-05-24 09:11:58,860 : INFO : ========================================
+2026-05-24 09:11:58,861 : INFO : AUTOMATION EXECUTION STARTED
+2026-05-24 09:11:58,861 : INFO : Deleting old allure-report folder
+2026-05-24 09:11:58,887 : INFO : Starting Behave Execution
+2026-05-24 09:12:00,765 : INFO : Behave completed with status code: 1
+2026-05-24 09:12:00,766 : INFO : Generating Allure Report
+2026-05-24 09:16:03,635 : INFO : ========================================
+2026-05-24 09:16:03,635 : INFO : AUTOMATION EXECUTION STARTED
+2026-05-24 09:16:03,635 : INFO : Starting Behave Execution
+2026-05-24 09:16:05,069 : INFO : Behave completed with status code: 1
+2026-05-24 09:16:05,069 : INFO : Generating Allure Report
+2026-05-24 09:16:07,926 : INFO : Allure report generated with status code: 0
+2026-05-24 09:16:07,926 : INFO : Opening Allure Report
+2026-05-24 09:17:31,960 : INFO : ========================================
+2026-05-24 09:17:31,962 : INFO : AUTOMATION EXECUTION STARTED
+2026-05-24 09:17:31,962 : INFO : Deleting old allure-report folder
+2026-05-24 09:17:31,992 : INFO : Starting Behave Execution
+2026-05-24 09:17:33,156 : INFO : Behave completed with status code: 1
+2026-05-24 09:17:33,156 : INFO : Generating Allure Report
+2026-05-24 09:17:35,705 : INFO : Allure report generated with status code: 0
+2026-05-24 09:17:35,706 : INFO : Opening Allure Report
+2026-05-24 09:19:45,212 : INFO : ========================================
+2026-05-24 09:19:45,212 : INFO : AUTOMATION EXECUTION STARTED
+2026-05-24 09:19:45,212 : INFO : Deleting old allure-report folder
+2026-05-24 09:19:45,237 : INFO : Starting Behave Execution
+2026-05-24 09:19:46,600 : INFO : Behave completed with status code: 1
+2026-05-24 09:19:46,600 : INFO : Generating Allure Report
+2026-05-24 09:19:49,652 : INFO : Allure report generated with status code: 0
+2026-05-24 09:19:49,652 : INFO : Opening Allure Report
+2026-05-24 09:20:24,652 : INFO : ========================================
+2026-05-24 09:20:24,654 : INFO : AUTOMATION EXECUTION STARTED
+2026-05-24 09:20:24,654 : INFO : Deleting old allure-report folder
+2026-05-24 09:20:24,677 : INFO : Starting Behave Execution
+2026-05-24 09:20:26,234 : INFO : Behave completed with status code: 1
+2026-05-24 09:20:26,234 : INFO : Generating Allure Report
+2026-05-24 09:20:29,549 : INFO : Allure report generated with status code: 0
+2026-05-24 09:20:29,549 : INFO : Opening Allure Report
+2026-05-24 09:53:35,940 : INFO : ========================================
+2026-05-24 09:53:35,941 : INFO : AUTOMATION EXECUTION STARTED
+2026-05-24 09:53:35,942 : INFO : Deleting old allure-report folder
+2026-05-24 09:53:36,011 : INFO : Starting Behave Execution
+2026-05-24 09:53:38,437 : INFO : ===================================
+2026-05-24 09:53:38,437 : INFO : STARTING SCENARIO: User completes complete shopping and checkout workflow -- @1.1 
+2026-05-24 09:53:43,385 : INFO : SCENARIO STATUS: Status.error
+2026-05-24 09:53:43,902 : INFO : Log file attached to Allure
+2026-05-24 09:53:49,633 : INFO : COMPLETED SCENARIO: User completes complete shopping and checkout workflow -- @1.1 
+2026-05-24 09:53:49,634 : INFO : ===================================
+2026-05-24 09:53:49,644 : INFO : ===================================
+2026-05-24 09:53:49,644 : INFO : STARTING SCENARIO: User completes complete shopping and checkout workflow -- @1.2 
+2026-05-24 09:53:52,115 : INFO : SCENARIO STATUS: Status.error
+2026-05-24 09:53:52,269 : INFO : Log file attached to Allure
+2026-05-24 09:53:55,632 : INFO : COMPLETED SCENARIO: User completes complete shopping and checkout workflow -- @1.2 
+2026-05-24 09:53:55,633 : INFO : ===================================
+2026-05-24 09:53:55,645 : INFO : ===================================
+2026-05-24 09:53:55,645 : INFO : STARTING SCENARIO: Verify add product to bag successfully
+2026-05-24 09:53:57,724 : INFO : SCENARIO STATUS: Status.error
+2026-05-24 09:53:57,899 : INFO : Log file attached to Allure
+2026-05-24 09:54:00,584 : INFO : COMPLETED SCENARIO: Verify add product to bag successfully
+2026-05-24 09:54:00,584 : INFO : ===================================
+2026-05-24 09:54:00,591 : INFO : ===================================
+2026-05-24 09:54:00,592 : INFO : STARTING SCENARIO: Verify brand filter functionality
+2026-05-24 09:54:02,634 : INFO : SCENARIO STATUS: Status.error
+2026-05-24 09:54:02,947 : INFO : Log file attached to Allure
+2026-05-24 09:54:05,618 : INFO : COMPLETED SCENARIO: Verify brand filter functionality
+2026-05-24 09:54:05,619 : INFO : ===================================
+2026-05-24 09:54:05,625 : INFO : ===================================
+2026-05-24 09:54:05,625 : INFO : STARTING SCENARIO: Verify product details page
+2026-05-24 09:54:07,823 : INFO : SCENARIO STATUS: Status.error
+2026-05-24 09:54:08,038 : INFO : Log file attached to Allure
+2026-05-24 09:54:11,336 : INFO : COMPLETED SCENARIO: Verify product details page
+2026-05-24 09:54:11,336 : INFO : ===================================
+2026-05-24 09:54:11,342 : INFO : ===================================
+2026-05-24 09:54:11,342 : INFO : STARTING SCENARIO: Verify valid login functionality
+2026-05-24 09:54:13,295 : INFO : SCENARIO STATUS: Status.error
+2026-05-24 09:54:13,467 : INFO : Log file attached to Allure
+2026-05-24 09:54:16,628 : INFO : COMPLETED SCENARIO: Verify valid login functionality
+2026-05-24 09:54:16,629 : INFO : ===================================
+2026-05-24 09:54:16,636 : INFO : ===================================
+2026-05-24 09:54:16,637 : INFO : STARTING SCENARIO: Verify invalid login functionality
+2026-05-24 09:54:18,597 : INFO : SCENARIO STATUS: Status.error
+2026-05-24 09:54:18,822 : INFO : Log file attached to Allure
+2026-05-24 09:54:22,420 : INFO : COMPLETED SCENARIO: Verify invalid login functionality
+2026-05-24 09:54:22,420 : INFO : ===================================
+2026-05-24 09:54:22,457 : INFO : ===================================
+2026-05-24 09:54:22,457 : INFO : STARTING SCENARIO: Verify invalid product search functionality
+2026-05-24 09:54:24,402 : INFO : SCENARIO STATUS: Status.error
+2026-05-24 09:54:24,884 : INFO : Log file attached to Allure
+2026-05-24 09:54:28,274 : INFO : COMPLETED SCENARIO: Verify invalid product search functionality
+2026-05-24 09:54:28,275 : INFO : ===================================
+2026-05-24 09:54:28,586 : INFO : Behave completed with status code: 1
+2026-05-24 09:54:28,593 : INFO : Generating Allure Report
+2026-05-24 09:54:32,173 : INFO : Allure report generated with status code: 0
+2026-05-24 09:54:32,173 : INFO : Opening Allure Report
+2026-05-24 10:05:21,440 : INFO : ========================================
+2026-05-24 10:05:21,440 : INFO : AUTOMATION EXECUTION STARTED
+2026-05-24 10:05:21,440 : INFO : Deleting old allure-results folder
+2026-05-24 10:05:21,484 : INFO : Deleting old allure-report folder
+2026-05-24 10:05:21,594 : INFO : Starting Behave Execution
+2026-05-24 10:05:24,287 : INFO : ===================================
+2026-05-24 10:05:24,287 : INFO : STARTING SCENARIO: User completes complete shopping and checkout workflow -- @1.1 
+2026-05-24 10:05:35,610 : INFO : Myntra Website Launched
+2026-05-24 10:05:35,625 : INFO : SCENARIO STATUS: Status.error
+2026-05-24 10:05:36,533 : INFO : Log file attached to Allure
+2026-05-24 10:05:57,506 : INFO : COMPLETED SCENARIO: User completes complete shopping and checkout workflow -- @1.1 
+2026-05-24 10:05:57,519 : INFO : ===================================
+2026-05-24 10:05:57,604 : INFO : ===================================
+2026-05-24 10:05:57,605 : INFO : STARTING SCENARIO: User completes complete shopping and checkout workflow -- @1.2 
+2026-05-24 10:06:07,149 : INFO : Myntra Website Launched
+2026-05-24 10:06:07,211 : INFO : SCENARIO STATUS: Status.error
+2026-05-24 10:06:08,047 : INFO : Log file attached to Allure
+2026-05-24 10:06:10,942 : INFO : COMPLETED SCENARIO: User completes complete shopping and checkout workflow -- @1.2 
+2026-05-24 10:06:10,942 : INFO : ===================================
+2026-05-24 10:06:10,961 : INFO : ===================================
+2026-05-24 10:06:10,961 : INFO : STARTING SCENARIO: Verify add product to bag successfully
+2026-05-24 10:06:18,821 : INFO : Myntra Website Launched
+2026-05-24 10:06:19,016 : INFO : Homepage Verified
+2026-05-24 10:06:19,965 : INFO : Screenshot saved at : reports/screenshots/Homepage_Verified_20260524_100619.png
+2026-05-24 10:06:22,118 : INFO : Kids Section Opened
+2026-05-24 10:06:22,773 : INFO : Screenshot saved at : reports/screenshots/Kids_Section_Opened_20260524_100622.png
+2026-05-24 10:06:22,852 : INFO : Kids Section Verified
+2026-05-24 10:06:25,886 : INFO : Product Searched: Kids T-shirt
+2026-05-24 10:06:26,281 : INFO : Screenshot saved at : reports/screenshots/Product_Search_20260524_100625.png
+2026-05-24 10:06:29,067 : INFO : First Product Opened
+2026-05-24 10:06:29,881 : INFO : Screenshot saved at : reports/screenshots/First_Product_20260524_100629.png
+2026-05-24 10:06:30,031 : INFO : Product Page Verified
+2026-05-24 10:06:31,005 : INFO : Screenshot saved at : reports/screenshots/Product_Page_20260524_100630.png
+2026-05-24 10:06:33,883 : INFO : Size Selected
+2026-05-24 10:06:34,530 : INFO : Screenshot saved at : reports/screenshots/Size_Selected_20260524_100633.png
+2026-05-24 10:06:34,801 : INFO : Product Added To Bag
+2026-05-24 10:06:35,520 : INFO : Screenshot saved at : reports/screenshots/Add_To_Bag_20260524_100634.png
+2026-05-24 10:06:35,868 : INFO : Product Added Verification Passed
+2026-05-24 10:06:35,870 : INFO : SCENARIO STATUS: Status.passed
+2026-05-24 10:06:36,518 : INFO : Log file attached to Allure
+2026-05-24 10:06:41,970 : INFO : COMPLETED SCENARIO: Verify add product to bag successfully
+2026-05-24 10:06:41,970 : INFO : ===================================
+2026-05-24 10:06:41,988 : INFO : ===================================
+2026-05-24 10:06:41,988 : INFO : STARTING SCENARIO: Verify brand filter functionality
+2026-05-24 10:06:49,639 : INFO : Myntra Website Launched
+2026-05-24 10:06:49,811 : INFO : Homepage Verified
+2026-05-24 10:06:50,693 : INFO : Screenshot saved at : reports/screenshots/Homepage_Verified_20260524_100649.png
+2026-05-24 10:06:52,354 : INFO : Kids Section Opened
+2026-05-24 10:06:52,957 : INFO : Screenshot saved at : reports/screenshots/Kids_Section_Opened_20260524_100652.png
+2026-05-24 10:06:53,012 : INFO : Kids Section Verified
+2026-05-24 10:06:56,138 : INFO : Product Searched: Girls Tops
+2026-05-24 10:06:56,634 : INFO : Screenshot saved at : reports/screenshots/Product_Search_20260524_100656.png
+2026-05-24 10:06:57,419 : INFO : Brand Filter Applied
+2026-05-24 10:06:58,287 : INFO : Screenshot saved at : reports/screenshots/Brand_Filter_20260524_100657.png
+2026-05-24 10:06:58,708 : INFO : Brand Filter Verified
+2026-05-24 10:06:58,716 : INFO : SCENARIO STATUS: Status.passed
+2026-05-24 10:06:59,063 : INFO : Log file attached to Allure
+2026-05-24 10:07:02,007 : INFO : COMPLETED SCENARIO: Verify brand filter functionality
+2026-05-24 10:07:02,007 : INFO : ===================================
+2026-05-24 10:07:02,025 : INFO : ===================================
+2026-05-24 10:07:02,025 : INFO : STARTING SCENARIO: Verify product details page
+2026-05-24 10:07:07,238 : INFO : Myntra Website Launched
+2026-05-24 10:07:07,447 : INFO : Homepage Verified
+2026-05-24 10:07:08,084 : INFO : Screenshot saved at : reports/screenshots/Homepage_Verified_20260524_100707.png
+2026-05-24 10:07:09,684 : INFO : Kids Section Opened
+2026-05-24 10:07:10,180 : INFO : Screenshot saved at : reports/screenshots/Kids_Section_Opened_20260524_100709.png
+2026-05-24 10:07:10,481 : INFO : Kids Section Verified
+2026-05-24 10:07:13,968 : INFO : Product Searched: Kids T-shirt
+2026-05-24 10:07:14,218 : INFO : Screenshot saved at : reports/screenshots/Product_Search_20260524_100713.png
+2026-05-24 10:07:14,824 : INFO : First Product Opened
+2026-05-24 10:07:16,422 : INFO : Screenshot saved at : reports/screenshots/First_Product_20260524_100714.png
+2026-05-24 10:07:16,493 : INFO : Product Page Verified
+2026-05-24 10:07:17,006 : INFO : Screenshot saved at : reports/screenshots/Product_Page_20260524_100716.png
+2026-05-24 10:07:17,132 : INFO : SCENARIO STATUS: Status.passed
+2026-05-24 10:07:17,798 : INFO : Log file attached to Allure
+2026-05-24 10:07:25,400 : INFO : COMPLETED SCENARIO: Verify product details page
+2026-05-24 10:07:25,400 : INFO : ===================================
+2026-05-24 10:07:25,446 : INFO : ===================================
+2026-05-24 10:07:25,446 : INFO : STARTING SCENARIO: Verify valid login functionality
+2026-05-24 10:07:28,656 : INFO : Myntra Website Launched
+2026-05-24 10:07:36,597 : INFO : Login Popup Opened
+2026-05-24 10:07:36,866 : INFO : Screenshot saved at : reports/screenshots/Login_Popup_20260524_100736.png
+2026-05-24 10:07:37,926 : INFO : Mobile Number Entered: 9152358202
+2026-05-24 10:07:38,169 : INFO : Screenshot saved at : reports/screenshots/Mobile_Number_20260524_100737.png
+2026-05-24 10:07:38,299 : INFO : Consent Checkbox Clicked
+2026-05-24 10:07:38,769 : INFO : Screenshot saved at : reports/screenshots/Consent_Checkbox_20260524_100738.png
+2026-05-24 10:07:38,967 : INFO : Continue Button Clicked
+2026-05-24 10:07:39,389 : INFO : Screenshot saved at : reports/screenshots/Continue_Button_20260524_100738.png
+2026-05-24 10:07:39,688 : INFO : OTP Page Verified
+2026-05-24 10:07:39,945 : INFO : Screenshot saved at : reports/screenshots/OTP_Page_20260524_100739.png
+2026-05-24 10:07:39,972 : INFO : SCENARIO STATUS: Status.passed
+2026-05-24 10:07:40,213 : INFO : Log file attached to Allure
+2026-05-24 10:07:43,658 : INFO : COMPLETED SCENARIO: Verify valid login functionality
+2026-05-24 10:07:43,658 : INFO : ===================================
+2026-05-24 10:07:43,678 : INFO : ===================================
+2026-05-24 10:07:43,678 : INFO : STARTING SCENARIO: Verify invalid login functionality
+2026-05-24 10:07:49,123 : INFO : Myntra Website Launched
+2026-05-24 10:07:54,429 : INFO : Login Popup Opened
+2026-05-24 10:07:54,698 : INFO : Screenshot saved at : reports/screenshots/Login_Popup_20260524_100754.png
+2026-05-24 10:07:55,788 : INFO : Mobile Number Entered: 12345
+2026-05-24 10:07:56,196 : INFO : Screenshot saved at : reports/screenshots/Mobile_Number_20260524_100755.png
+2026-05-24 10:07:56,477 : INFO : Consent Checkbox Clicked
+2026-05-24 10:07:56,759 : INFO : Screenshot saved at : reports/screenshots/Consent_Checkbox_20260524_100756.png
+2026-05-24 10:07:56,902 : INFO : Continue Button Clicked
+2026-05-24 10:07:57,160 : INFO : Screenshot saved at : reports/screenshots/Continue_Button_20260524_100756.png
+2026-05-24 10:07:57,267 : INFO : Invalid Mobile Validation Passed
+2026-05-24 10:07:57,536 : INFO : Screenshot saved at : reports/screenshots/Invalid_Mobile_20260524_100757.png
+2026-05-24 10:07:57,579 : INFO : SCENARIO STATUS: Status.passed
+2026-05-24 10:07:57,883 : INFO : Log file attached to Allure
+2026-05-24 10:08:00,313 : INFO : COMPLETED SCENARIO: Verify invalid login functionality
+2026-05-24 10:08:00,313 : INFO : ===================================
+2026-05-24 10:08:00,320 : INFO : ===================================
+2026-05-24 10:08:00,320 : INFO : STARTING SCENARIO: Verify invalid product search functionality
+2026-05-24 10:08:04,909 : INFO : Myntra Website Launched
+2026-05-24 10:08:05,154 : INFO : Homepage Verified
+2026-05-24 10:08:05,796 : INFO : Screenshot saved at : reports/screenshots/Homepage_Verified_20260524_100805.png
+2026-05-24 10:08:06,216 : INFO : Kids Section Opened
+2026-05-24 10:08:06,963 : INFO : Screenshot saved at : reports/screenshots/Kids_Section_Opened_20260524_100806.png
+2026-05-24 10:08:07,007 : INFO : Kids Section Verified
+2026-05-24 10:08:09,183 : INFO : Product Searched: asdkjasdhj
+2026-05-24 10:08:09,632 : INFO : Screenshot saved at : reports/screenshots/Product_Search_20260524_100809.png
+2026-05-24 10:08:09,728 : INFO : No Products Found
+2026-05-24 10:08:10,080 : INFO : Screenshot saved at : reports/screenshots/No_Products_Found_20260524_100809.png
+2026-05-24 10:08:10,107 : INFO : SCENARIO STATUS: Status.passed
+2026-05-24 10:08:10,442 : INFO : Log file attached to Allure
+2026-05-24 10:08:13,064 : INFO : COMPLETED SCENARIO: Verify invalid product search functionality
+2026-05-24 10:08:13,064 : INFO : ===================================
+2026-05-24 10:08:13,493 : INFO : Behave completed with status code: 1
+2026-05-24 10:08:13,499 : INFO : Generating Allure Report
+2026-05-24 10:08:17,312 : INFO : Allure report generated with status code: 0
+2026-05-24 10:08:17,312 : INFO : Opening Allure Report
+2026-05-24 10:20:47,071 : INFO : ========================================
+2026-05-24 10:20:47,072 : INFO : AUTOMATION EXECUTION STARTED
+2026-05-24 10:20:47,073 : INFO : Deleting old allure-results folder
+2026-05-24 10:20:47,185 : INFO : Deleting old allure-report folder
+2026-05-24 10:20:47,327 : INFO : Starting Behave Execution
+2026-05-24 10:20:50,737 : INFO : ===================================
+2026-05-24 10:20:50,738 : INFO : STARTING SCENARIO: User completes complete shopping and checkout workflow -- @1.1 
+2026-05-24 10:20:59,071 : INFO : Myntra Website Launched
+2026-05-24 10:20:59,204 : INFO : Homepage Verified Successfully
+2026-05-24 10:20:59,836 : INFO : Screenshot saved at : reports/screenshots/Homepage_20260524_102059.png
+2026-05-24 10:21:01,172 : INFO : Kids Section Opened Successfully
+2026-05-24 10:21:01,525 : INFO : Screenshot saved at : reports/screenshots/Kids_Section_20260524_102101.png
+2026-05-24 10:21:01,572 : INFO : Kids Page Verified
+2026-05-24 10:21:05,599 : INFO : Search performed for: Kids T-shirt
+2026-05-24 10:21:06,045 : INFO : Screenshot saved at : reports/screenshots/Product_Search_20260524_102105.png
+2026-05-24 10:21:07,237 : INFO : First Product Opened
+2026-05-24 10:21:07,348 : INFO : Product Page Verified
+2026-05-24 10:21:07,758 : INFO : Screenshot saved at : reports/screenshots/Product_Page_20260524_102107.png
+2026-05-24 10:21:08,892 : INFO : Product Size Selected
+2026-05-24 10:21:09,047 : INFO : Product Added To Bag
+2026-05-24 10:21:09,119 : INFO : Product Successfully Added To Bag
+2026-05-24 10:21:10,241 : INFO : Screenshot saved at : reports/screenshots/Added_To_Bag_20260524_102109.png
+2026-05-24 10:21:12,291 : INFO : Shopping Bag Opened
+2026-05-24 10:21:12,632 : INFO : Cart Page Verified Successfully
+2026-05-24 10:21:12,856 : INFO : Screenshot saved at : reports/screenshots/Cart_Page_20260524_102112.png
+2026-05-24 10:21:13,014 : INFO : SCENARIO STATUS: Status.error
+2026-05-24 10:21:13,398 : INFO : Log file attached to Allure
+2026-05-24 10:21:18,793 : INFO : COMPLETED SCENARIO: User completes complete shopping and checkout workflow -- @1.1 
+2026-05-24 10:21:18,793 : INFO : ===================================
+2026-05-24 10:21:18,837 : INFO : ===================================
+2026-05-24 10:21:18,837 : INFO : STARTING SCENARIO: User completes complete shopping and checkout workflow -- @1.2 
+2026-05-24 10:21:25,097 : INFO : Myntra Website Launched
+2026-05-24 10:21:25,416 : INFO : Homepage Verified Successfully
+2026-05-24 10:21:26,353 : INFO : Screenshot saved at : reports/screenshots/Homepage_20260524_102125.png
+2026-05-24 10:21:27,187 : INFO : Kids Section Opened Successfully
+2026-05-24 10:21:28,239 : INFO : Screenshot saved at : reports/screenshots/Kids_Section_20260524_102127.png
+2026-05-24 10:21:28,289 : INFO : Kids Page Verified
+2026-05-24 10:21:31,042 : INFO : Search performed for: Boys Jeans
+2026-05-24 10:21:31,403 : INFO : Screenshot saved at : reports/screenshots/Product_Search_20260524_102131.png
+2026-05-24 10:21:33,523 : INFO : First Product Opened
+2026-05-24 10:21:33,782 : INFO : Product Page Verified
+2026-05-24 10:21:34,702 : INFO : Screenshot saved at : reports/screenshots/Product_Page_20260524_102133.png
+2026-05-24 10:21:35,091 : INFO : Product Size Selected
+2026-05-24 10:21:35,381 : INFO : Product Added To Bag
+2026-05-24 10:21:35,471 : INFO : Product Successfully Added To Bag
+2026-05-24 10:21:36,769 : INFO : Screenshot saved at : reports/screenshots/Added_To_Bag_20260524_102135.png
+2026-05-24 10:21:59,404 : INFO : Shopping Bag Opened
+2026-05-24 10:22:21,535 : INFO : SCENARIO STATUS: Status.error
+2026-05-24 10:22:22,424 : INFO : Log file attached to Allure
+2026-05-24 10:22:45,766 : INFO : COMPLETED SCENARIO: User completes complete shopping and checkout workflow -- @1.2 
+2026-05-24 10:22:45,774 : INFO : ===================================
+2026-05-24 10:22:45,958 : INFO : ===================================
+2026-05-24 10:22:45,958 : INFO : STARTING SCENARIO: Verify add product to bag successfully
+2026-05-24 10:22:55,167 : INFO : Myntra Website Launched
+2026-05-24 10:22:55,300 : INFO : Homepage Verified
+2026-05-24 10:22:55,834 : INFO : Screenshot saved at : reports/screenshots/Homepage_Verified_20260524_102255.png
+2026-05-24 10:22:56,429 : INFO : Kids Section Opened
+2026-05-24 10:22:58,471 : INFO : Screenshot saved at : reports/screenshots/Kids_Section_Opened_20260524_102256.png
+2026-05-24 10:22:59,019 : INFO : Kids Section Verified
+2026-05-24 10:23:03,839 : INFO : Product Searched: Kids T-shirt
+2026-05-24 10:23:04,774 : INFO : Screenshot saved at : reports/screenshots/Product_Search_20260524_102303.png
+2026-05-24 10:23:10,009 : INFO : First Product Opened
+2026-05-24 10:23:10,580 : INFO : Screenshot saved at : reports/screenshots/First_Product_20260524_102310.png
+2026-05-24 10:23:10,687 : INFO : Product Page Verified
+2026-05-24 10:23:11,244 : INFO : Screenshot saved at : reports/screenshots/Product_Page_20260524_102310.png
+2026-05-24 10:23:13,085 : INFO : Size Selected
+2026-05-24 10:23:13,790 : INFO : Screenshot saved at : reports/screenshots/Size_Selected_20260524_102313.png
+2026-05-24 10:23:14,317 : INFO : Product Added To Bag
+2026-05-24 10:23:15,410 : INFO : Screenshot saved at : reports/screenshots/Add_To_Bag_20260524_102314.png
+2026-05-24 10:23:15,772 : INFO : Product Added Verification Passed
+2026-05-24 10:23:15,817 : INFO : SCENARIO STATUS: Status.passed
+2026-05-24 10:23:16,384 : INFO : Log file attached to Allure
+2026-05-24 10:28:52,658 : INFO : ========================================
+2026-05-24 10:28:52,659 : INFO : AUTOMATION EXECUTION STARTED
+2026-05-24 10:28:52,660 : INFO : Deleting old allure-results folder
+2026-05-24 10:28:52,699 : INFO : Starting Behave Execution
+2026-05-24 10:28:55,301 : INFO : ===================================
+2026-05-24 10:28:55,301 : INFO : STARTING SCENARIO: User completes complete shopping and checkout workflow -- @1.1 
+2026-05-24 10:29:02,634 : INFO : Myntra Website Launched
+2026-05-24 10:29:02,896 : INFO : Homepage Verified Successfully
+2026-05-24 10:29:03,465 : INFO : Screenshot saved at : reports/screenshots/Homepage_20260524_102902.png
+2026-05-24 10:29:04,971 : INFO : Kids Section Opened Successfully
+2026-05-24 10:29:05,593 : INFO : Screenshot saved at : reports/screenshots/Kids_Section_20260524_102904.png
+2026-05-24 10:29:05,709 : INFO : Kids Page Verified
+2026-05-24 10:29:11,776 : INFO : Search performed for: Kids T-shirt
+2026-05-24 10:29:12,145 : INFO : Screenshot saved at : reports/screenshots/Product_Search_20260524_102911.png
+2026-05-24 10:29:13,817 : INFO : First Product Opened
+2026-05-24 10:29:14,375 : INFO : Product Page Verified
+2026-05-24 10:29:15,186 : INFO : Screenshot saved at : reports/screenshots/Product_Page_20260524_102914.png
+2026-05-24 10:29:17,662 : INFO : Product Size Selected
+2026-05-24 10:29:18,014 : INFO : Product Added To Bag
+2026-05-24 10:29:18,174 : INFO : Product Successfully Added To Bag
+2026-05-24 10:29:18,938 : INFO : Screenshot saved at : reports/screenshots/Added_To_Bag_20260524_102918.png
+2026-05-24 10:29:21,005 : INFO : Shopping Bag Opened
+2026-05-24 10:29:21,086 : INFO : Cart Page Verified Successfully
+2026-05-24 10:29:21,323 : INFO : Screenshot saved at : reports/screenshots/Cart_Page_20260524_102921.png
+2026-05-24 10:29:21,408 : INFO : Changing quantity to 2
+2026-05-24 10:29:22,124 : INFO : Selecting donation ₹10
+2026-05-24 10:29:22,311 : INFO : Clicking Place Order
+2026-05-24 10:29:25,607 : INFO : Redirected URL: https://www.myntra.com/login?referer=/checkout/cart
+2026-05-24 10:29:27,078 : INFO : Valid Mobile Number Entered
+2026-05-24 10:29:31,591 : INFO : Screenshot saved at : reports/screenshots/Valid_Mobile_Number_Entered_20260524_102927.png
+2026-05-24 10:29:31,840 : INFO : Consent Checkbox Clicked
+2026-05-24 10:29:32,238 : INFO : Screenshot saved at : reports/screenshots/Consent_Checkbox_Clicked_20260524_102931.png
+2026-05-24 10:29:32,500 : INFO : Continue Button Clicked
+2026-05-24 10:29:33,343 : INFO : Screenshot saved at : reports/screenshots/Continue_Button_Clicked_20260524_102932.png
+2026-05-24 10:29:33,574 : INFO : OTP Page Assertion Passed
+2026-05-24 10:29:34,257 : INFO : Complete E2E Test Passed Successfully
+2026-05-24 10:29:34,353 : INFO : SCENARIO STATUS: Status.passed
+2026-05-24 10:29:34,961 : INFO : Log file attached to Allure
+2026-05-24 10:29:40,652 : INFO : COMPLETED SCENARIO: User completes complete shopping and checkout workflow -- @1.1 
+2026-05-24 10:29:40,652 : INFO : ===================================
+2026-05-24 10:29:40,704 : INFO : ===================================
+2026-05-24 10:29:40,704 : INFO : STARTING SCENARIO: User completes complete shopping and checkout workflow -- @1.2 
+2026-05-24 10:29:46,357 : INFO : Myntra Website Launched
+2026-05-24 10:29:46,430 : INFO : Homepage Verified Successfully
+2026-05-24 10:29:47,072 : INFO : Screenshot saved at : reports/screenshots/Homepage_20260524_102946.png
+2026-05-24 10:29:49,676 : INFO : Kids Section Opened Successfully
+2026-05-24 10:29:50,236 : INFO : Screenshot saved at : reports/screenshots/Kids_Section_20260524_102949.png
+2026-05-24 10:29:50,411 : INFO : Kids Page Verified
+2026-05-24 10:29:54,526 : INFO : Search performed for: Boys Jeans
+2026-05-24 10:29:54,964 : INFO : Screenshot saved at : reports/screenshots/Product_Search_20260524_102954.png
+2026-05-24 10:29:56,451 : INFO : First Product Opened
+2026-05-24 10:29:57,127 : INFO : Product Page Verified
+2026-05-24 10:29:57,572 : INFO : Screenshot saved at : reports/screenshots/Product_Page_20260524_102957.png
+2026-05-24 10:29:57,871 : INFO : Product Size Selected
+2026-05-24 10:29:58,104 : INFO : Product Added To Bag
+2026-05-24 10:29:58,172 : INFO : Product Successfully Added To Bag
+2026-05-24 10:29:58,614 : INFO : Screenshot saved at : reports/screenshots/Added_To_Bag_20260524_102958.png
+2026-05-24 10:30:01,236 : INFO : Shopping Bag Opened
+2026-05-24 10:30:01,401 : INFO : Cart Page Verified Successfully
+2026-05-24 10:30:01,566 : INFO : Screenshot saved at : reports/screenshots/Cart_Page_20260524_103001.png
+2026-05-24 10:30:01,615 : INFO : Changing quantity to 2
+2026-05-24 10:30:02,310 : INFO : Selecting donation ₹10
+2026-05-24 10:30:02,418 : INFO : Clicking Place Order
+2026-05-24 10:30:05,277 : INFO : Redirected URL: https://www.myntra.com/login?referer=/checkout/cart
+2026-05-24 10:30:06,024 : INFO : Valid Mobile Number Entered
+2026-05-24 10:30:06,284 : INFO : Screenshot saved at : reports/screenshots/Valid_Mobile_Number_Entered_20260524_103006.png
+2026-05-24 10:30:06,396 : INFO : Consent Checkbox Clicked
+2026-05-24 10:30:06,611 : INFO : Screenshot saved at : reports/screenshots/Consent_Checkbox_Clicked_20260524_103006.png
+2026-05-24 10:30:06,700 : INFO : Continue Button Clicked
+2026-05-24 10:30:06,985 : INFO : Screenshot saved at : reports/screenshots/Continue_Button_Clicked_20260524_103006.png
+2026-05-24 10:30:07,160 : INFO : OTP Page Assertion Passed
+2026-05-24 10:30:07,467 : INFO : Complete E2E Test Passed Successfully
+2026-05-24 10:30:07,492 : INFO : SCENARIO STATUS: Status.passed
+2026-05-24 10:30:07,808 : INFO : Log file attached to Allure
+2026-05-24 10:30:12,414 : INFO : COMPLETED SCENARIO: User completes complete shopping and checkout workflow -- @1.2 
+2026-05-24 10:30:12,415 : INFO : ===================================
+2026-05-24 10:30:12,472 : INFO : ===================================
+2026-05-24 10:30:12,472 : INFO : STARTING SCENARIO: Verify add product to bag successfully
+2026-05-24 10:30:18,056 : INFO : Myntra Website Launched
+2026-05-24 10:30:18,099 : INFO : Homepage Verified
+2026-05-24 10:30:18,654 : INFO : Screenshot saved at : reports/screenshots/Homepage_Verified_20260524_103018.png
+2026-05-24 10:30:20,605 : INFO : Kids Section Opened
+2026-05-24 10:30:21,144 : INFO : Screenshot saved at : reports/screenshots/Kids_Section_Opened_20260524_103020.png
+2026-05-24 10:30:21,182 : INFO : Kids Section Verified
+2026-05-24 10:30:23,269 : INFO : Product Searched: Kids T-shirt
+2026-05-24 10:30:23,578 : INFO : Screenshot saved at : reports/screenshots/Product_Search_20260524_103023.png
+2026-05-24 10:30:24,724 : INFO : First Product Opened
+2026-05-24 10:30:25,131 : INFO : Screenshot saved at : reports/screenshots/First_Product_20260524_103024.png
+2026-05-24 10:30:25,300 : INFO : Product Page Verified
+2026-05-24 10:30:25,701 : INFO : Screenshot saved at : reports/screenshots/Product_Page_20260524_103025.png
+2026-05-24 10:30:27,019 : INFO : Size Selected
+2026-05-24 10:30:27,441 : INFO : Screenshot saved at : reports/screenshots/Size_Selected_20260524_103027.png
+2026-05-24 10:30:27,531 : INFO : Product Added To Bag
+2026-05-24 10:30:28,017 : INFO : Screenshot saved at : reports/screenshots/Add_To_Bag_20260524_103027.png
+2026-05-24 10:30:28,346 : INFO : Product Added Verification Passed
+2026-05-24 10:30:28,347 : INFO : SCENARIO STATUS: Status.passed
+2026-05-24 10:30:28,813 : INFO : Log file attached to Allure
+2026-05-24 10:30:29,418 : INFO : COMPLETED SCENARIO: Verify add product to bag successfully
+2026-05-24 10:30:29,418 : INFO : ===================================
+2026-05-24 10:30:29,445 : INFO : ===================================
+2026-05-24 10:30:29,449 : INFO : STARTING SCENARIO: Verify brand filter functionality
+2026-05-24 10:30:32,370 : INFO : Myntra Website Launched
+2026-05-24 10:30:34,366 : INFO : Homepage Verified
+2026-05-24 10:30:35,143 : INFO : Screenshot saved at : reports/screenshots/Homepage_Verified_20260524_103034.png
+2026-05-24 10:30:36,783 : INFO : Kids Section Opened
+2026-05-24 10:30:37,241 : INFO : Screenshot saved at : reports/screenshots/Kids_Section_Opened_20260524_103036.png
+2026-05-24 10:30:37,309 : INFO : Kids Section Verified
+2026-05-24 10:30:39,843 : INFO : Product Searched: Girls Tops
+2026-05-24 10:30:40,367 : INFO : Screenshot saved at : reports/screenshots/Product_Search_20260524_103039.png
+2026-05-24 10:30:40,738 : INFO : Brand Filter Applied
+2026-05-24 10:30:41,263 : INFO : Screenshot saved at : reports/screenshots/Brand_Filter_20260524_103040.png
+2026-05-24 10:30:41,809 : INFO : Brand Filter Verified
+2026-05-24 10:30:41,812 : INFO : SCENARIO STATUS: Status.passed
+2026-05-24 10:30:42,193 : INFO : Log file attached to Allure
+2026-05-24 10:30:44,767 : INFO : COMPLETED SCENARIO: Verify brand filter functionality
+2026-05-24 10:30:44,768 : INFO : ===================================
+2026-05-24 10:30:44,775 : INFO : ===================================
+2026-05-24 10:30:44,776 : INFO : STARTING SCENARIO: Verify product details page
+2026-05-24 10:30:50,379 : INFO : Myntra Website Launched
+2026-05-24 10:30:50,534 : INFO : Homepage Verified
+2026-05-24 10:30:51,346 : INFO : Screenshot saved at : reports/screenshots/Homepage_Verified_20260524_103050.png
+2026-05-24 10:30:52,740 : INFO : Kids Section Opened
+2026-05-24 10:30:53,319 : INFO : Screenshot saved at : reports/screenshots/Kids_Section_Opened_20260524_103052.png
+2026-05-24 10:30:53,357 : INFO : Kids Section Verified
+2026-05-24 10:30:55,823 : INFO : Product Searched: Kids T-shirt
+2026-05-24 10:30:56,306 : INFO : Screenshot saved at : reports/screenshots/Product_Search_20260524_103055.png
+2026-05-24 10:30:57,815 : INFO : First Product Opened
+2026-05-24 10:30:58,336 : INFO : Screenshot saved at : reports/screenshots/First_Product_20260524_103057.png
+2026-05-24 10:30:58,471 : INFO : Product Page Verified
+2026-05-24 10:30:58,980 : INFO : Screenshot saved at : reports/screenshots/Product_Page_20260524_103058.png
+2026-05-24 10:30:59,014 : INFO : SCENARIO STATUS: Status.passed
+2026-05-24 10:30:59,573 : INFO : Log file attached to Allure
+2026-05-24 10:31:02,521 : INFO : COMPLETED SCENARIO: Verify product details page
+2026-05-24 10:31:02,522 : INFO : ===================================
+2026-05-24 10:31:02,527 : INFO : ===================================
+2026-05-24 10:31:02,527 : INFO : STARTING SCENARIO: Verify valid login functionality
+2026-05-24 10:31:10,414 : INFO : Myntra Website Launched
+2026-05-24 10:31:14,911 : INFO : Login Popup Opened
+2026-05-24 10:31:15,309 : INFO : Screenshot saved at : reports/screenshots/Login_Popup_20260524_103114.png
+2026-05-24 10:31:16,428 : INFO : Mobile Number Entered: 9152358202
+2026-05-24 10:31:16,747 : INFO : Screenshot saved at : reports/screenshots/Mobile_Number_20260524_103116.png
+2026-05-24 10:31:16,824 : INFO : Consent Checkbox Clicked
+2026-05-24 10:31:17,139 : INFO : Screenshot saved at : reports/screenshots/Consent_Checkbox_20260524_103116.png
+2026-05-24 10:31:17,275 : INFO : Continue Button Clicked
+2026-05-24 10:31:17,573 : INFO : Screenshot saved at : reports/screenshots/Continue_Button_20260524_103117.png
+2026-05-24 10:31:17,680 : INFO : OTP Page Verified
+2026-05-24 10:31:18,429 : INFO : Screenshot saved at : reports/screenshots/OTP_Page_20260524_103117.png
+2026-05-24 10:31:18,491 : INFO : SCENARIO STATUS: Status.passed
+2026-05-24 10:31:18,701 : INFO : Log file attached to Allure
+2026-05-24 10:31:22,948 : INFO : COMPLETED SCENARIO: Verify valid login functionality
+2026-05-24 10:31:22,948 : INFO : ===================================
+2026-05-24 10:31:22,970 : INFO : ===================================
+2026-05-24 10:31:22,970 : INFO : STARTING SCENARIO: Verify invalid login functionality
+2026-05-24 10:31:29,805 : INFO : Myntra Website Launched
+2026-05-24 10:31:35,231 : INFO : Login Popup Opened
+2026-05-24 10:31:35,608 : INFO : Screenshot saved at : reports/screenshots/Login_Popup_20260524_103135.png
+2026-05-24 10:31:36,794 : INFO : Mobile Number Entered: 12345
+2026-05-24 10:31:37,158 : INFO : Screenshot saved at : reports/screenshots/Mobile_Number_20260524_103136.png
+2026-05-24 10:31:37,361 : INFO : Consent Checkbox Clicked
+2026-05-24 10:31:37,681 : INFO : Screenshot saved at : reports/screenshots/Consent_Checkbox_20260524_103137.png
+2026-05-24 10:31:37,869 : INFO : Continue Button Clicked
+2026-05-24 10:31:38,164 : INFO : Screenshot saved at : reports/screenshots/Continue_Button_20260524_103137.png
+2026-05-24 10:31:38,249 : INFO : Invalid Mobile Validation Passed
+2026-05-24 10:31:38,569 : INFO : Screenshot saved at : reports/screenshots/Invalid_Mobile_20260524_103138.png
+2026-05-24 10:31:38,601 : INFO : SCENARIO STATUS: Status.passed
+2026-05-24 10:31:38,924 : INFO : Log file attached to Allure
+2026-05-24 10:31:42,509 : INFO : COMPLETED SCENARIO: Verify invalid login functionality
+2026-05-24 10:31:42,509 : INFO : ===================================
+2026-05-24 10:31:42,537 : INFO : ===================================
+2026-05-24 10:31:42,537 : INFO : STARTING SCENARIO: Verify invalid product search functionality
+2026-05-24 10:31:48,423 : INFO : Myntra Website Launched
+2026-05-24 10:31:48,452 : INFO : Homepage Verified
+2026-05-24 10:31:49,236 : INFO : Screenshot saved at : reports/screenshots/Homepage_Verified_20260524_103148.png
+2026-05-24 10:31:50,726 : INFO : Kids Section Opened
+2026-05-24 10:31:51,274 : INFO : Screenshot saved at : reports/screenshots/Kids_Section_Opened_20260524_103150.png
+2026-05-24 10:31:51,390 : INFO : Kids Section Verified
+2026-05-24 10:31:54,168 : INFO : Product Searched: asdkjasdhj
+2026-05-24 10:31:54,637 : INFO : Screenshot saved at : reports/screenshots/Product_Search_20260524_103154.png
+2026-05-24 10:31:54,736 : INFO : No Products Found
+2026-05-24 10:31:55,131 : INFO : Screenshot saved at : reports/screenshots/No_Products_Found_20260524_103154.png
+2026-05-24 10:31:55,157 : INFO : SCENARIO STATUS: Status.passed
+2026-05-24 10:31:55,612 : INFO : Log file attached to Allure
+2026-05-24 10:31:59,097 : INFO : COMPLETED SCENARIO: Verify invalid product search functionality
+2026-05-24 10:31:59,097 : INFO : ===================================
+2026-05-24 10:31:59,540 : INFO : Behave completed with status code: 0
+2026-05-24 10:31:59,546 : INFO : Generating Allure Report
+2026-05-24 10:32:05,075 : INFO : Allure report generated with status code: 0
+2026-05-24 10:32:05,075 : INFO : Opening Allure Report
+2026-05-24 12:27:00,652 : INFO : ========================================
+2026-05-24 12:27:00,653 : INFO : AUTOMATION EXECUTION STARTED
+2026-05-24 12:27:00,653 : INFO : Deleting old allure-results folder
+2026-05-24 12:27:00,771 : INFO : Deleting old allure-report folder
+2026-05-24 12:27:00,954 : INFO : Starting Behave Execution
+2026-05-24 12:27:04,637 : INFO : ===================================
+2026-05-24 12:27:04,642 : INFO : STARTING SCENARIO: User completes complete shopping and checkout workflow -- @1.1 
+2026-05-24 12:27:16,529 : INFO : Myntra Website Launched
+2026-05-24 12:27:20,564 : INFO : Homepage Verified Successfully
+2026-05-24 12:27:21,196 : INFO : Screenshot saved at : reports/screenshots/Homepage_20260524_122720.png
+2026-05-24 12:27:22,059 : INFO : Kids Section Opened Successfully
+2026-05-24 12:27:23,746 : INFO : Screenshot saved at : reports/screenshots/Kids_Section_20260524_122722.png
+2026-05-24 12:27:23,842 : INFO : Kids Page Verified
+2026-05-24 12:27:27,652 : INFO : Search performed for: Kids T-shirt
+2026-05-24 12:27:27,977 : INFO : Screenshot saved at : reports/screenshots/Product_Search_20260524_122727.png
+2026-05-24 12:27:30,535 : INFO : First Product Opened
+2026-05-24 12:27:30,625 : INFO : Product Page Verified
+2026-05-24 12:27:31,227 : INFO : Screenshot saved at : reports/screenshots/Product_Page_20260524_122730.png
+2026-05-24 12:27:31,680 : INFO : Product Size Selected
+2026-05-24 12:27:31,838 : INFO : Product Added To Bag
+2026-05-24 12:27:31,917 : INFO : Product Successfully Added To Bag
+2026-05-24 12:27:32,318 : INFO : Screenshot saved at : reports/screenshots/Added_To_Bag_20260524_122731.png
+2026-05-24 12:27:34,014 : INFO : Shopping Bag Opened
+2026-05-24 12:27:34,239 : INFO : Cart Page Verified Successfully
+2026-05-24 12:27:34,379 : INFO : Screenshot saved at : reports/screenshots/Cart_Page_20260524_122734.png
+2026-05-24 12:27:34,417 : INFO : Changing quantity to 2
+2026-05-24 12:27:35,018 : INFO : Selecting donation ₹10
+2026-05-24 12:27:35,269 : INFO : Clicking Place Order
+2026-05-24 12:27:37,932 : INFO : Redirected URL: https://www.myntra.com/login?referer=/checkout/cart
+2026-05-24 12:27:39,170 : INFO : Valid Mobile Number Entered
+2026-05-24 12:27:39,436 : INFO : Screenshot saved at : reports/screenshots/Valid_Mobile_Number_Entered_20260524_122739.png
+2026-05-24 12:27:39,579 : INFO : Consent Checkbox Clicked
+2026-05-24 12:27:39,876 : INFO : Screenshot saved at : reports/screenshots/Consent_Checkbox_Clicked_20260524_122739.png
+2026-05-24 12:27:40,052 : INFO : Continue Button Clicked
+2026-05-24 12:27:40,353 : INFO : Screenshot saved at : reports/screenshots/Continue_Button_Clicked_20260524_122740.png
+2026-05-24 12:27:40,517 : INFO : OTP Page Assertion Passed
+2026-05-24 12:27:40,856 : INFO : Complete E2E Test Passed Successfully
+2026-05-24 12:27:40,978 : INFO : SCENARIO STATUS: Status.passed
+2026-05-24 12:27:42,599 : INFO : Log file attached to Allure
+2026-05-24 12:27:54,966 : INFO : COMPLETED SCENARIO: User completes complete shopping and checkout workflow -- @1.1 
+2026-05-24 12:27:54,966 : INFO : ===================================
+2026-05-24 12:27:55,043 : INFO : ===================================
+2026-05-24 12:27:55,044 : INFO : STARTING SCENARIO: User completes complete shopping and checkout workflow -- @1.2 
+2026-05-24 12:28:02,398 : INFO : Myntra Website Launched
+2026-05-24 12:28:02,580 : INFO : Homepage Verified Successfully
+2026-05-24 12:28:03,047 : INFO : Screenshot saved at : reports/screenshots/Homepage_20260524_122802.png
+2026-05-24 12:28:03,454 : INFO : Kids Section Opened Successfully
+2026-05-24 12:28:04,444 : INFO : Screenshot saved at : reports/screenshots/Kids_Section_20260524_122803.png
+2026-05-24 12:28:04,563 : INFO : Kids Page Verified
+2026-05-24 12:28:08,331 : INFO : Search performed for: Boys Jeans
+2026-05-24 12:28:08,927 : INFO : Screenshot saved at : reports/screenshots/Product_Search_20260524_122808.png
+2026-05-24 12:28:10,665 : INFO : First Product Opened
+2026-05-24 12:28:10,872 : INFO : Product Page Verified
+2026-05-24 12:28:11,326 : INFO : Screenshot saved at : reports/screenshots/Product_Page_20260524_122810.png
+2026-05-24 12:28:11,500 : INFO : Product Size Selected
+2026-05-24 12:28:11,593 : INFO : Product Added To Bag
+2026-05-24 12:28:11,608 : INFO : Product Successfully Added To Bag
+2026-05-24 12:28:12,109 : INFO : Screenshot saved at : reports/screenshots/Added_To_Bag_20260524_122811.png
+2026-05-24 12:28:14,449 : INFO : Shopping Bag Opened
+2026-05-24 12:28:14,832 : INFO : Cart Page Verified Successfully
+2026-05-24 12:28:14,991 : INFO : Screenshot saved at : reports/screenshots/Cart_Page_20260524_122814.png
+2026-05-24 12:28:15,026 : INFO : Changing quantity to 2
+2026-05-24 12:28:36,065 : INFO : SCENARIO STATUS: Status.error
+2026-05-24 12:28:36,249 : INFO : Log file attached to Allure
+2026-05-24 12:28:41,807 : INFO : COMPLETED SCENARIO: User completes complete shopping and checkout workflow -- @1.2 
+2026-05-24 12:28:41,807 : INFO : ===================================
+2026-05-24 12:28:41,917 : INFO : ===================================
+2026-05-24 12:28:41,917 : INFO : STARTING SCENARIO: Verify add product to bag successfully
+2026-05-24 12:28:46,890 : INFO : Myntra Website Launched
+2026-05-24 12:28:49,885 : INFO : Homepage Verified
+2026-05-24 12:28:50,616 : INFO : Screenshot saved at : reports/screenshots/Homepage_Verified_20260524_122849.png
+2026-05-24 12:28:51,183 : INFO : Kids Section Opened
+2026-05-24 12:28:52,065 : INFO : Screenshot saved at : reports/screenshots/Kids_Section_Opened_20260524_122851.png
+2026-05-24 12:28:52,177 : INFO : Kids Section Verified
+2026-05-24 12:28:54,444 : INFO : Product Searched: Kids T-shirt
+2026-05-24 12:28:54,830 : INFO : Screenshot saved at : reports/screenshots/Product_Search_20260524_122854.png
+2026-05-24 12:28:56,403 : INFO : First Product Opened
+2026-05-24 12:28:56,879 : INFO : Screenshot saved at : reports/screenshots/First_Product_20260524_122856.png
+2026-05-24 12:28:56,955 : INFO : Product Page Verified
+2026-05-24 12:28:57,302 : INFO : Screenshot saved at : reports/screenshots/Product_Page_20260524_122856.png
+2026-05-24 12:28:57,450 : INFO : Size Selected
+2026-05-24 12:28:57,886 : INFO : Screenshot saved at : reports/screenshots/Size_Selected_20260524_122857.png
+2026-05-24 12:28:58,015 : INFO : Product Added To Bag
+2026-05-24 12:28:58,579 : INFO : Screenshot saved at : reports/screenshots/Add_To_Bag_20260524_122858.png
+2026-05-24 12:28:58,843 : INFO : Product Added Verification Passed
+2026-05-24 12:28:58,843 : INFO : SCENARIO STATUS: Status.passed
+2026-05-24 12:28:59,440 : INFO : Log file attached to Allure
+2026-05-24 12:29:00,874 : INFO : COMPLETED SCENARIO: Verify add product to bag successfully
+2026-05-24 12:29:00,875 : INFO : ===================================
+2026-05-24 12:29:00,884 : INFO : ===================================
+2026-05-24 12:29:00,885 : INFO : STARTING SCENARIO: Verify brand filter functionality
+2026-05-24 12:29:04,910 : INFO : Myntra Website Launched
+2026-05-24 12:29:07,845 : INFO : Homepage Verified
+2026-05-24 12:29:08,373 : INFO : Screenshot saved at : reports/screenshots/Homepage_Verified_20260524_122907.png
+2026-05-24 12:29:12,731 : INFO : Kids Section Opened
+2026-05-24 12:29:13,185 : INFO : Screenshot saved at : reports/screenshots/Kids_Section_Opened_20260524_122912.png
+2026-05-24 12:29:13,238 : INFO : Kids Section Verified
+2026-05-24 12:29:19,067 : INFO : Product Searched: Girls Tops
+2026-05-24 12:29:19,400 : INFO : Screenshot saved at : reports/screenshots/Product_Search_20260524_122919.png
+2026-05-24 12:29:19,967 : INFO : Brand Filter Applied
+2026-05-24 12:29:20,368 : INFO : Screenshot saved at : reports/screenshots/Brand_Filter_20260524_122919.png
+2026-05-24 12:29:20,603 : INFO : Brand Filter Verified
+2026-05-24 12:29:20,603 : INFO : SCENARIO STATUS: Status.passed
+2026-05-24 12:29:21,090 : INFO : Log file attached to Allure
+2026-05-24 12:29:22,337 : INFO : COMPLETED SCENARIO: Verify brand filter functionality
+2026-05-24 12:29:22,337 : INFO : ===================================
+2026-05-24 12:29:22,344 : INFO : ===================================
+2026-05-24 12:29:22,344 : INFO : STARTING SCENARIO: Verify product details page
+2026-05-24 12:29:26,559 : INFO : Myntra Website Launched
+2026-05-24 12:29:28,974 : INFO : Homepage Verified
+2026-05-24 12:29:29,483 : INFO : Screenshot saved at : reports/screenshots/Homepage_Verified_20260524_122928.png
+2026-05-24 12:29:29,883 : INFO : Kids Section Opened
+2026-05-24 12:29:30,844 : INFO : Screenshot saved at : reports/screenshots/Kids_Section_Opened_20260524_122929.png
+2026-05-24 12:29:30,943 : INFO : Kids Section Verified
+2026-05-24 12:29:33,513 : INFO : Product Searched: Kids T-shirt
+2026-05-24 12:29:33,836 : INFO : Screenshot saved at : reports/screenshots/Product_Search_20260524_122933.png
+2026-05-24 12:29:35,283 : INFO : First Product Opened
+2026-05-24 12:29:35,788 : INFO : Screenshot saved at : reports/screenshots/First_Product_20260524_122935.png
+2026-05-24 12:29:35,912 : INFO : Product Page Verified
+2026-05-24 12:29:36,285 : INFO : Screenshot saved at : reports/screenshots/Product_Page_20260524_122935.png
+2026-05-24 12:29:36,437 : INFO : SCENARIO STATUS: Status.passed
+2026-05-24 12:29:37,234 : INFO : Log file attached to Allure
+2026-05-24 12:29:41,944 : INFO : COMPLETED SCENARIO: Verify product details page
+2026-05-24 12:29:41,946 : INFO : ===================================
+2026-05-24 12:29:41,985 : INFO : ===================================
+2026-05-24 12:29:41,986 : INFO : STARTING SCENARIO: Verify valid login functionality
+2026-05-24 12:29:49,956 : INFO : Myntra Website Launched
+2026-05-24 12:29:52,327 : INFO : Login Popup Opened
+2026-05-24 12:29:52,705 : INFO : Screenshot saved at : reports/screenshots/Login_Popup_20260524_122952.png
+2026-05-24 12:29:54,172 : INFO : Mobile Number Entered: 9152358202
+2026-05-24 12:29:54,423 : INFO : Screenshot saved at : reports/screenshots/Mobile_Number_20260524_122954.png
+2026-05-24 12:29:54,523 : INFO : Consent Checkbox Clicked
+2026-05-24 12:29:54,796 : INFO : Screenshot saved at : reports/screenshots/Consent_Checkbox_20260524_122954.png
+2026-05-24 12:29:54,903 : INFO : Continue Button Clicked
+2026-05-24 12:29:55,186 : INFO : Screenshot saved at : reports/screenshots/Continue_Button_20260524_122954.png
+2026-05-24 12:29:55,476 : INFO : OTP Page Verified
+2026-05-24 12:29:55,979 : INFO : Screenshot saved at : reports/screenshots/OTP_Page_20260524_122955.png
+2026-05-24 12:29:56,029 : INFO : SCENARIO STATUS: Status.passed
+2026-05-24 12:29:56,556 : INFO : Log file attached to Allure
+2026-05-24 12:30:00,593 : INFO : COMPLETED SCENARIO: Verify valid login functionality
+2026-05-24 12:30:00,593 : INFO : ===================================
+2026-05-24 12:30:00,661 : INFO : ===================================
+2026-05-24 12:30:00,662 : INFO : STARTING SCENARIO: Verify invalid login functionality
+2026-05-24 12:30:04,583 : INFO : Myntra Website Launched
+2026-05-24 12:30:09,199 : INFO : Login Popup Opened
+2026-05-24 12:30:09,547 : INFO : Screenshot saved at : reports/screenshots/Login_Popup_20260524_123009.png
+2026-05-24 12:30:10,181 : INFO : Mobile Number Entered: 12345
+2026-05-24 12:30:10,461 : INFO : Screenshot saved at : reports/screenshots/Mobile_Number_20260524_123010.png
+2026-05-24 12:30:10,545 : INFO : Consent Checkbox Clicked
+2026-05-24 12:30:10,820 : INFO : Screenshot saved at : reports/screenshots/Consent_Checkbox_20260524_123010.png
+2026-05-24 12:30:10,917 : INFO : Continue Button Clicked
+2026-05-24 12:30:11,186 : INFO : Screenshot saved at : reports/screenshots/Continue_Button_20260524_123010.png
+2026-05-24 12:30:11,296 : INFO : Invalid Mobile Validation Passed
+2026-05-24 12:30:11,554 : INFO : Screenshot saved at : reports/screenshots/Invalid_Mobile_20260524_123011.png
+2026-05-24 12:30:11,590 : INFO : SCENARIO STATUS: Status.passed
+2026-05-24 12:30:11,872 : INFO : Log file attached to Allure
+2026-05-24 12:30:14,772 : INFO : COMPLETED SCENARIO: Verify invalid login functionality
+2026-05-24 12:30:14,772 : INFO : ===================================
+2026-05-24 12:30:14,780 : INFO : ===================================
+2026-05-24 12:30:14,781 : INFO : STARTING SCENARIO: Verify invalid product search functionality
+2026-05-24 12:30:20,293 : INFO : Myntra Website Launched
+2026-05-24 12:30:20,538 : INFO : Homepage Verified
+2026-05-24 12:30:21,130 : INFO : Screenshot saved at : reports/screenshots/Homepage_Verified_20260524_123020.png
+2026-05-24 12:30:22,794 : INFO : Kids Section Opened
+2026-05-24 12:30:23,208 : INFO : Screenshot saved at : reports/screenshots/Kids_Section_Opened_20260524_123022.png
+2026-05-24 12:30:23,402 : INFO : Kids Section Verified
+2026-05-24 12:30:26,946 : INFO : Product Searched: asdkjasdhj
+2026-05-24 12:30:27,514 : INFO : Screenshot saved at : reports/screenshots/Product_Search_20260524_123026.png
+2026-05-24 12:30:27,632 : INFO : No Products Found
+2026-05-24 12:30:28,038 : INFO : Screenshot saved at : reports/screenshots/No_Products_Found_20260524_123027.png
+2026-05-24 12:30:28,089 : INFO : SCENARIO STATUS: Status.passed
+2026-05-24 12:30:28,525 : INFO : Log file attached to Allure
+2026-05-24 12:30:31,631 : INFO : COMPLETED SCENARIO: Verify invalid product search functionality
+2026-05-24 12:30:31,633 : INFO : ===================================
+2026-05-24 12:30:32,278 : INFO : Behave completed with status code: 1
+2026-05-24 12:30:32,287 : INFO : Generating Allure Report
+2026-05-24 12:30:39,142 : INFO : Allure report generated with status code: 0
+2026-05-24 12:30:39,143 : INFO : Opening Allure Report
+2026-05-24 12:32:24,708 : INFO : ========================================
+2026-05-24 12:32:24,709 : INFO : AUTOMATION EXECUTION STARTED
+2026-05-24 12:32:24,709 : INFO : Deleting old allure-results folder
+2026-05-24 12:32:24,800 : INFO : Deleting old allure-report folder
+2026-05-24 12:32:24,926 : INFO : Starting Behave Execution
+2026-05-24 12:32:26,702 : INFO : ===================================
+2026-05-24 12:32:26,703 : INFO : STARTING SCENARIO: User completes complete shopping and checkout workflow -- @1.1 
+2026-05-24 12:32:34,535 : INFO : Myntra Website Launched
+2026-05-24 12:32:34,838 : INFO : Homepage Verified Successfully
+2026-05-24 12:32:35,693 : INFO : Screenshot saved at : reports/screenshots/Homepage_20260524_123234.png
+2026-05-24 12:32:36,245 : INFO : Kids Section Opened Successfully
+2026-05-24 12:32:37,230 : INFO : Screenshot saved at : reports/screenshots/Kids_Section_20260524_123236.png
+2026-05-24 12:32:37,333 : INFO : Kids Page Verified
+2026-05-24 12:32:40,172 : INFO : Search performed for: Kids T-shirt
+2026-05-24 12:32:40,511 : INFO : Screenshot saved at : reports/screenshots/Product_Search_20260524_123240.png
+2026-05-24 12:32:41,952 : INFO : First Product Opened
+2026-05-24 12:32:42,111 : INFO : Product Page Verified
+2026-05-24 12:32:42,527 : INFO : Screenshot saved at : reports/screenshots/Product_Page_20260524_123242.png
+2026-05-24 12:32:42,724 : INFO : Product Size Selected
+2026-05-24 12:32:42,811 : INFO : Product Added To Bag
+2026-05-24 12:32:42,839 : INFO : Product Successfully Added To Bag
+2026-05-24 12:32:43,206 : INFO : Screenshot saved at : reports/screenshots/Added_To_Bag_20260524_123242.png
+2026-05-24 12:32:45,617 : INFO : Shopping Bag Opened
+2026-05-24 12:32:45,921 : INFO : Cart Page Verified Successfully
+2026-05-24 12:32:46,064 : INFO : Screenshot saved at : reports/screenshots/Cart_Page_20260524_123245.png
+2026-05-24 12:32:46,097 : INFO : Changing quantity to 2
+2026-05-24 12:32:46,545 : INFO : Selecting donation ₹10
+2026-05-24 12:32:46,656 : INFO : Clicking Place Order
+2026-05-24 12:32:48,857 : INFO : Redirected URL: https://www.myntra.com/login?referer=/checkout/cart
+2026-05-24 12:32:49,656 : INFO : Valid Mobile Number Entered
+2026-05-24 12:32:49,913 : INFO : Screenshot saved at : reports/screenshots/Valid_Mobile_Number_Entered_20260524_123249.png
+2026-05-24 12:32:49,998 : INFO : Consent Checkbox Clicked
+2026-05-24 12:32:50,251 : INFO : Screenshot saved at : reports/screenshots/Consent_Checkbox_Clicked_20260524_123249.png
+2026-05-24 12:32:50,386 : INFO : Continue Button Clicked
+2026-05-24 12:32:50,680 : INFO : Screenshot saved at : reports/screenshots/Continue_Button_Clicked_20260524_123250.png
+2026-05-24 12:32:50,907 : INFO : OTP Page Assertion Passed
+2026-05-24 12:32:51,429 : INFO : Complete E2E Test Passed Successfully
+2026-05-24 12:32:51,436 : INFO : SCENARIO STATUS: Status.passed
+2026-05-24 12:32:51,753 : INFO : Log file attached to Allure
+2026-05-24 12:32:54,643 : INFO : COMPLETED SCENARIO: User completes complete shopping and checkout workflow -- @1.1 
+2026-05-24 12:32:54,644 : INFO : ===================================
+2026-05-24 12:32:54,653 : INFO : ===================================
+2026-05-24 12:32:54,679 : INFO : STARTING SCENARIO: User completes complete shopping and checkout workflow -- @1.2 
+2026-05-24 12:33:00,145 : INFO : Myntra Website Launched
+2026-05-24 12:33:00,226 : INFO : Homepage Verified Successfully
+2026-05-24 12:33:00,787 : INFO : Screenshot saved at : reports/screenshots/Homepage_20260524_123300.png
+2026-05-24 12:33:02,042 : INFO : Kids Section Opened Successfully
+2026-05-24 12:33:02,366 : INFO : Screenshot saved at : reports/screenshots/Kids_Section_20260524_123302.png
+2026-05-24 12:33:02,542 : INFO : Kids Page Verified
+2026-05-24 12:33:04,533 : INFO : Search performed for: Boys Jeans
+2026-05-24 12:33:04,889 : INFO : Screenshot saved at : reports/screenshots/Product_Search_20260524_123304.png
+2026-05-24 12:33:06,360 : INFO : First Product Opened
+2026-05-24 12:33:06,595 : INFO : Product Page Verified
+2026-05-24 12:33:07,089 : INFO : Screenshot saved at : reports/screenshots/Product_Page_20260524_123306.png
+2026-05-24 12:33:07,240 : INFO : Product Size Selected
+2026-05-24 12:33:07,307 : INFO : Product Added To Bag
+2026-05-24 12:33:07,362 : INFO : Product Successfully Added To Bag
+2026-05-24 12:33:07,793 : INFO : Screenshot saved at : reports/screenshots/Added_To_Bag_20260524_123307.png
+2026-05-24 12:33:09,804 : INFO : Shopping Bag Opened
+2026-05-24 12:33:09,945 : INFO : Cart Page Verified Successfully
+2026-05-24 12:33:10,165 : INFO : Screenshot saved at : reports/screenshots/Cart_Page_20260524_123309.png
+2026-05-24 12:33:10,330 : INFO : Changing quantity to 2
+2026-05-24 12:33:31,175 : INFO : SCENARIO STATUS: Status.error
+2026-05-24 12:33:31,380 : INFO : Log file attached to Allure
+2026-05-24 12:33:35,230 : INFO : COMPLETED SCENARIO: User completes complete shopping and checkout workflow -- @1.2 
+2026-05-24 12:33:35,231 : INFO : ===================================
+2026-05-24 12:33:35,279 : INFO : ===================================
+2026-05-24 12:33:35,281 : INFO : STARTING SCENARIO: Verify add product to bag successfully
+2026-05-24 12:33:36,828 : INFO : SCENARIO STATUS: Status.hook_error
+2026-05-24 12:33:36,896 : INFO : Log file attached to Allure
+2026-05-24 12:33:36,897 : INFO : COMPLETED SCENARIO: Verify add product to bag successfully
+2026-05-24 12:33:36,897 : INFO : ===================================
+2026-05-24 12:35:18,990 : INFO : ========================================
+2026-05-24 12:35:18,991 : INFO : AUTOMATION EXECUTION STARTED
+2026-05-24 12:35:18,991 : INFO : Deleting old allure-results folder
+2026-05-24 12:35:19,023 : INFO : Starting Behave Execution
+2026-05-24 12:35:21,342 : INFO : ===================================
+2026-05-24 12:35:21,342 : INFO : STARTING SCENARIO: User completes complete shopping and checkout workflow -- @1.1 
+2026-05-24 12:35:27,384 : INFO : Myntra Website Launched
+2026-05-24 12:35:31,212 : INFO : Homepage Verified Successfully
+2026-05-24 12:35:31,990 : INFO : Screenshot saved at : reports/screenshots/Homepage_20260524_123531.png
+2026-05-24 12:35:32,682 : INFO : Kids Section Opened Successfully
+2026-05-24 12:35:33,789 : INFO : Screenshot saved at : reports/screenshots/Kids_Section_20260524_123532.png
+2026-05-24 12:35:33,873 : INFO : Kids Page Verified
+2026-05-24 12:35:36,219 : INFO : Search performed for: Kids T-shirt
+2026-05-24 12:35:36,557 : INFO : Screenshot saved at : reports/screenshots/Product_Search_20260524_123536.png
+2026-05-24 12:35:37,939 : INFO : First Product Opened
+2026-05-24 12:35:38,178 : INFO : Product Page Verified
+2026-05-24 12:35:38,542 : INFO : Screenshot saved at : reports/screenshots/Product_Page_20260524_123538.png
+2026-05-24 12:35:38,746 : INFO : Product Size Selected
+2026-05-24 12:35:38,898 : INFO : Product Added To Bag
+2026-05-24 12:35:38,910 : INFO : Product Successfully Added To Bag
+2026-05-24 12:35:39,296 : INFO : Screenshot saved at : reports/screenshots/Added_To_Bag_20260524_123538.png
+2026-05-24 12:35:41,099 : INFO : Shopping Bag Opened
+2026-05-24 12:35:41,777 : INFO : Cart Page Verified Successfully
+2026-05-24 12:35:41,948 : INFO : Screenshot saved at : reports/screenshots/Cart_Page_20260524_123541.png
+2026-05-24 12:35:41,998 : INFO : Changing quantity to 2
+2026-05-24 12:35:42,604 : INFO : Selecting donation ₹10
+2026-05-24 12:35:42,761 : INFO : Clicking Place Order
+2026-05-24 12:35:45,037 : INFO : Redirected URL: https://www.myntra.com/login?referer=/checkout/cart
+2026-05-24 12:35:45,784 : INFO : Valid Mobile Number Entered
+2026-05-24 12:35:46,060 : INFO : Screenshot saved at : reports/screenshots/Valid_Mobile_Number_Entered_20260524_123545.png
+2026-05-24 12:35:46,171 : INFO : Consent Checkbox Clicked
+2026-05-24 12:35:46,421 : INFO : Screenshot saved at : reports/screenshots/Consent_Checkbox_Clicked_20260524_123546.png
+2026-05-24 12:35:46,537 : INFO : Continue Button Clicked
+2026-05-24 12:35:46,879 : INFO : Screenshot saved at : reports/screenshots/Continue_Button_Clicked_20260524_123546.png
+2026-05-24 12:35:47,216 : INFO : OTP Page Assertion Passed
+2026-05-24 12:35:47,787 : INFO : Complete E2E Test Passed Successfully
+2026-05-24 12:35:47,787 : INFO : SCENARIO STATUS: Status.passed
+2026-05-24 12:35:48,283 : INFO : Log file attached to Allure
+2026-05-24 12:35:51,177 : INFO : COMPLETED SCENARIO: User completes complete shopping and checkout workflow -- @1.1 
+2026-05-24 12:35:51,177 : INFO : ===================================
+2026-05-24 12:35:51,186 : INFO : ===================================
+2026-05-24 12:35:51,207 : INFO : STARTING SCENARIO: User completes complete shopping and checkout workflow -- @1.2 
+2026-05-24 12:35:57,085 : INFO : Myntra Website Launched
+2026-05-24 12:35:57,183 : INFO : Homepage Verified Successfully
+2026-05-24 12:35:57,840 : INFO : Screenshot saved at : reports/screenshots/Homepage_20260524_123557.png
+2026-05-24 12:35:59,163 : INFO : Kids Section Opened Successfully
+2026-05-24 12:35:59,548 : INFO : Screenshot saved at : reports/screenshots/Kids_Section_20260524_123559.png
+2026-05-24 12:35:59,649 : INFO : Kids Page Verified
+2026-05-24 12:36:02,329 : INFO : Search performed for: Boys Jeans
+2026-05-24 12:36:02,634 : INFO : Screenshot saved at : reports/screenshots/Product_Search_20260524_123602.png
+2026-05-24 12:36:04,098 : INFO : First Product Opened
+2026-05-24 12:36:04,189 : INFO : Product Page Verified
+2026-05-24 12:36:04,712 : INFO : Screenshot saved at : reports/screenshots/Product_Page_20260524_123604.png
+2026-05-24 12:36:04,885 : INFO : Product Size Selected
+2026-05-24 12:36:04,973 : INFO : Product Added To Bag
+2026-05-24 12:36:05,019 : INFO : Product Successfully Added To Bag
+2026-05-24 12:36:05,528 : INFO : Screenshot saved at : reports/screenshots/Added_To_Bag_20260524_123605.png
+2026-05-24 12:36:07,395 : INFO : Shopping Bag Opened
+2026-05-24 12:36:07,490 : INFO : Cart Page Verified Successfully
+2026-05-24 12:36:07,943 : INFO : Screenshot saved at : reports/screenshots/Cart_Page_20260524_123607.png
+2026-05-24 12:36:07,989 : INFO : Changing quantity to 2
+2026-05-24 12:36:13,708 : INFO : SCENARIO STATUS: Status.error
+2026-05-24 12:36:14,034 : INFO : ===================================
+2026-05-24 12:36:14,035 : INFO : STARTING SCENARIO: Verify add product to bag successfully
+2026-05-24 12:36:19,169 : INFO : SCENARIO STATUS: Status.hook_error

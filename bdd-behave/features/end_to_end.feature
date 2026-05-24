@@ -1,32 +1,50 @@
 @e2e
-Feature: Myntra Beauty End to End Flow
+Feature: Myntra Complete Shopping Workflow
 
-  Scenario: Complete beauty purchase flow
+  Scenario Outline: User completes complete shopping and checkout workflow
 
-    Given user opens Myntra homepage for end to end
+    Given User launches Myntra website in e2e
 
-    When user closes popup if present
+    Then User verifies homepage successfully in e2e
 
-    And user hovers over beauty menu
+    When User opens kids section in e2e
 
-    And user selects "Lip Balm" category
+    Then User verifies kids page successfully in e2e
 
-    And user opens first product
+    When User searches for "<product>" in e2e
 
-    And user switches to product tab
+    And User opens first product in e2e
 
-    And user selects size if available
+    Then User verifies product page successfully in e2e
 
-    And user adds product to bag
+    When User selects product size in e2e
 
-    And user goes to shopping bag
+    And User adds product to bag in e2e
 
-    And user verifies cart item
+    Then User verifies product added successfully in e2e
 
-    And user changes quantity to 2
+    When User opens shopping bag in e2e
 
-    And user selects ₹10 donation
+    Then User verifies cart page successfully in e2e
 
-    And user clicks place order
+    When User changes quantity to "<quantity>" in e2e
 
-    Then user should be redirected to login page
+    And User selects donation "<donation>" in e2e
+
+    And User clicks place order in e2e
+
+    Then User should be redirected to login page in e2e
+
+    When User enters mobile number "9152358202" in e2e
+
+    And User clicks consent checkbox in e2e
+
+    And User clicks continue button in e2e
+
+    Then OTP page should display successfully in e2e
+
+
+    Examples:
+      | product        | quantity | donation |
+      | Kids T-shirt   | 2        | 10       |
+      | Boys Jeans     | 2        | 10       |

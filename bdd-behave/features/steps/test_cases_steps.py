@@ -4,15 +4,14 @@ from pages.kids_page import KidsPage
 from pages.cart_page import CartPage
 from pages.login_page import LoginPage
 from pages.filter_page import FilterPage
-
+import allure
 from utils.screenshot_util import ScreenshotUtil
-from utils.excel_reader import ExcelReader
-from utils.logger import LogGen
+from utils.setup_logger import LogGen
+from utils.config_reader import ConfigReader
+
+
 logger = LogGen.loggen()
 
-urls = load_test_data(
-    "urls.json"
-)
 
 
 # =====================================================
@@ -21,9 +20,9 @@ urls = load_test_data(
 
 @given("User launches Myntra website")
 def launch_myntra(context):
-
+    
     context.driver.get(
-        urls["base_url"]
+        ConfigReader.get_base_url()
     )
 
     context.kids_page = KidsPage(
@@ -48,7 +47,7 @@ def launch_myntra(context):
 
 
 # =====================================================
-# HOMEPAGE VALIDATION
+# HOMEPAGE
 # =====================================================
 
 @then("User verifies homepage successfully")
@@ -62,15 +61,7 @@ def verify_homepage(context):
 
     ScreenshotUtil.capture_screenshot(
         context.driver,
-        "homepage_verified"
-    )
-
-    assert "myntra" in (
-        context.driver.title.lower()
-    )
-
-    logger.info(
-        "Homepage Assertion Passed"
+        "Homepage_Verified"
     )
 
 
@@ -89,7 +80,7 @@ def open_kids_section(context):
 
     ScreenshotUtil.capture_screenshot(
         context.driver,
-        "kids_section_opened"
+        "Kids_Section_Opened"
     )
 
 
@@ -101,7 +92,7 @@ def verify_kids_page(context):
     )
 
     logger.info(
-        "Kids Section Assertion Passed"
+        "Kids Section Verified"
     )
 
 
@@ -117,17 +108,17 @@ def search_product(context, product):
     )
 
     logger.info(
-        f"Product Search Successful: {product}"
+        f"Product Searched: {product}"
     )
 
     ScreenshotUtil.capture_screenshot(
         context.driver,
-        "product_search"
+        "Product_Search"
     )
 
 
 # =====================================================
-# INVALID SEARCH VALIDATION
+# INVALID SEARCH
 # =====================================================
 
 @then("No products should display")
@@ -139,12 +130,12 @@ def verify_no_products(context):
     )
 
     logger.info(
-        "No Products Found Verification Passed"
+        "No Products Found"
     )
 
     ScreenshotUtil.capture_screenshot(
         context.driver,
-        "no_products_found"
+        "No_Products_Found"
     )
 
 
@@ -155,7 +146,7 @@ def verify_no_products(context):
 @when("User applies brand filter")
 def apply_brand_filter(context):
 
-    context.filter_page.apply_available_brand_filter()
+    context.filter_page.apply_brand_filter()
 
     logger.info(
         "Brand Filter Applied"
@@ -163,24 +154,24 @@ def apply_brand_filter(context):
 
     ScreenshotUtil.capture_screenshot(
         context.driver,
-        "brand_filter_applied"
+        "Brand_Filter"
     )
 
 
 @then("Brand filter should apply successfully")
 def verify_brand_filter(context):
 
-    assert "filters" in (
+    assert "h&m" in (
         context.driver.page_source.lower()
     )
 
     logger.info(
-        "Brand Filter Assertion Passed"
+        "Brand Filter Verified"
     )
 
 
 # =====================================================
-# PRODUCT PAGE
+# OPEN PRODUCT
 # =====================================================
 
 @when("User opens first product")
@@ -194,7 +185,7 @@ def open_first_product(context):
 
     ScreenshotUtil.capture_screenshot(
         context.driver,
-        "first_product_opened"
+        "First_Product"
     )
 
 
@@ -211,12 +202,12 @@ def verify_product_page(context):
 
     ScreenshotUtil.capture_screenshot(
         context.driver,
-        "product_page_verified"
+        "Product_Page"
     )
 
 
 # =====================================================
-# SIZE SELECTION
+# SIZE
 # =====================================================
 
 @when("User selects product size")
@@ -230,14 +221,13 @@ def select_size(context):
 
     ScreenshotUtil.capture_screenshot(
         context.driver,
-        "size_selected"
+        "Size_Selected"
     )
 
 
 # =====================================================
 # ADD TO BAG
 # =====================================================
-
 @when("User adds product to bag")
 def add_to_bag(context):
 
@@ -249,7 +239,7 @@ def add_to_bag(context):
 
     ScreenshotUtil.capture_screenshot(
         context.driver,
-        "product_added_to_bag"
+        "Add_To_Bag"
     )
 
 
@@ -261,17 +251,12 @@ def verify_product_added(context):
     )
 
     logger.info(
-        "Add To Bag Verified"
-    )
-
-    ScreenshotUtil.capture_screenshot(
-        context.driver,
-        "add_to_bag_verified"
+        "Product Added Verification Passed"
     )
 
 
 # =====================================================
-# LOGIN POPUP
+# LOGIN
 # =====================================================
 
 @when("User opens login popup")
@@ -285,13 +270,9 @@ def open_login_popup(context):
 
     ScreenshotUtil.capture_screenshot(
         context.driver,
-        "login_popup_opened"
+        "Login_Popup"
     )
 
-
-# =====================================================
-# MOBILE NUMBER
-# =====================================================
 
 @when('User enters mobile number "{number}"')
 def enter_mobile(context, number):
@@ -306,13 +287,9 @@ def enter_mobile(context, number):
 
     ScreenshotUtil.capture_screenshot(
         context.driver,
-        "mobile_number_entered"
+        "Mobile_Number"
     )
 
-
-# =====================================================
-# CONSENT CHECKBOX
-# =====================================================
 
 @when("User clicks consent checkbox")
 def click_checkbox(context):
@@ -325,13 +302,9 @@ def click_checkbox(context):
 
     ScreenshotUtil.capture_screenshot(
         context.driver,
-        "checkbox_clicked"
+        "Consent_Checkbox"
     )
 
-
-# =====================================================
-# CONTINUE BUTTON
-# =====================================================
 
 @when("User clicks continue button")
 def click_continue(context):
@@ -344,7 +317,7 @@ def click_continue(context):
 
     ScreenshotUtil.capture_screenshot(
         context.driver,
-        "continue_clicked"
+        "Continue_Button"
     )
 
 
@@ -360,12 +333,12 @@ def verify_otp(context):
     )
 
     logger.info(
-        "OTP Page Assertion Passed"
+        "OTP Page Verified"
     )
 
     ScreenshotUtil.capture_screenshot(
         context.driver,
-        "otp_page_verified"
+        "OTP_Page"
     )
 
 
@@ -381,10 +354,10 @@ def verify_invalid_mobile(context):
     )
 
     logger.info(
-        "Invalid Login Error Verification Passed"
+        "Invalid Mobile Validation Passed"
     )
 
     ScreenshotUtil.capture_screenshot(
         context.driver,
-        "invalid_login_verified"
+        "Invalid_Mobile"
     )

@@ -1,29 +1,37 @@
 from behave import given, when, then
 
-from pages.kids_page import KidsPage
+import allure
+
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.common.exceptions import ElementClickInterceptedException
+
 from pages.cart_page import CartPage
+from pages.kids_page import KidsPage
 from pages.login_page import LoginPage
-from pages.filter_page import FilterPage
 
 from utils.screenshot_util import ScreenshotUtil
-from utils.excel_reader import ExcelReader
-from utils.logger import LogGen
+from utils.setup_logger import LogGen
+from utils.config_reader import ConfigReader
+
 logger = LogGen.loggen()
 
-urls = {
-    "base_url": "https://www.myntra.com/"
-}
 
 
 # =====================================================
 # COMMON SETUP
 # =====================================================
 
-@given("User launches Myntra website")
+@given("User launches Myntra website in e2e")
 def launch_myntra(context):
-
     context.driver.get(
-        urls["base_url"]
+        ConfigReader.get_base_url()
+    )
+
+    context.wait = WebDriverWait(
+        context.driver,
+        20
     )
 
     context.kids_page = KidsPage(
@@ -38,39 +46,27 @@ def launch_myntra(context):
         context.driver
     )
 
-    context.filter_page = FilterPage(
-        context.driver
-    )
-
     logger.info(
         "Myntra Website Launched"
     )
 
 
 # =====================================================
-# HOMEPAGE VALIDATION
+# HOMEPAGE
 # =====================================================
 
-@then("User verifies homepage successfully")
+@then("User verifies homepage successfully in e2e")
 def verify_homepage(context):
 
     context.kids_page.verify_homepage()
 
     logger.info(
-        "Homepage Verified"
+        "Homepage Verified Successfully"
     )
 
     ScreenshotUtil.capture_screenshot(
         context.driver,
-        "homepage_verified"
-    )
-
-    assert "myntra" in (
-        context.driver.title.lower()
-    )
-
-    logger.info(
-        "Homepage Assertion Passed"
+        "Homepage"
     )
 
 
@@ -78,30 +74,28 @@ def verify_homepage(context):
 # KIDS SECTION
 # =====================================================
 
-@when("User opens kids section")
+@when("User opens kids section in e2e")
 def open_kids_section(context):
 
     context.kids_page.click_kids_section()
 
     logger.info(
-        "Kids Section Opened"
+        "Kids Section Opened Successfully"
     )
 
     ScreenshotUtil.capture_screenshot(
         context.driver,
-        "kids_section_opened"
+        "Kids_Section"
     )
 
 
-@then("User verifies kids page successfully")
+@then("User verifies kids page successfully in e2e")
 def verify_kids_page(context):
 
-    assert "kids" in (
-        context.driver.current_url.lower()
-    )
+    context.kids_page.verify_kids_page_opened()
 
     logger.info(
-        "Kids Section Assertion Passed"
+        "Kids Page Verified"
     )
 
 
@@ -109,7 +103,7 @@ def verify_kids_page(context):
 # SEARCH PRODUCT
 # =====================================================
 
-@when('User searches for "{product}"')
+@when('User searches for "{product}" in e2e')
 def search_product(context, product):
 
     context.kids_page.search_product(
@@ -117,65 +111,12 @@ def search_product(context, product):
     )
 
     logger.info(
-        f"Product Search Successful: {product}"
+        f"Search performed for: {product}"
     )
 
     ScreenshotUtil.capture_screenshot(
         context.driver,
-        "product_search"
-    )
-
-
-# =====================================================
-# INVALID SEARCH VALIDATION
-# =====================================================
-
-@then("No products should display")
-def verify_no_products(context):
-
-    assert (
-        context.kids_page
-        .verify_no_products_found()
-    )
-
-    logger.info(
-        "No Products Found Verification Passed"
-    )
-
-    ScreenshotUtil.capture_screenshot(
-        context.driver,
-        "no_products_found"
-    )
-
-
-# =====================================================
-# BRAND FILTER
-# =====================================================
-
-@when("User applies brand filter")
-def apply_brand_filter(context):
-
-    context.filter_page.apply_available_brand_filter()
-
-    logger.info(
-        "Brand Filter Applied"
-    )
-
-    ScreenshotUtil.capture_screenshot(
-        context.driver,
-        "brand_filter_applied"
-    )
-
-
-@then("Brand filter should apply successfully")
-def verify_brand_filter(context):
-
-    assert "filters" in (
-        context.driver.page_source.lower()
-    )
-
-    logger.info(
-        "Brand Filter Assertion Passed"
+        "Product_Search"
     )
 
 
@@ -183,7 +124,7 @@ def verify_brand_filter(context):
 # PRODUCT PAGE
 # =====================================================
 
-@when("User opens first product")
+@when("User opens first product in e2e")
 def open_first_product(context):
 
     context.kids_page.open_first_product()
@@ -192,18 +133,11 @@ def open_first_product(context):
         "First Product Opened"
     )
 
-    ScreenshotUtil.capture_screenshot(
-        context.driver,
-        "first_product_opened"
-    )
 
-
-@then("User verifies product page successfully")
+@then("User verifies product page successfully in e2e")
 def verify_product_page(context):
 
-    assert "buy" in (
-        context.driver.current_url.lower()
-    )
+    context.kids_page.verify_product_page_opened()
 
     logger.info(
         "Product Page Verified"
@@ -211,26 +145,21 @@ def verify_product_page(context):
 
     ScreenshotUtil.capture_screenshot(
         context.driver,
-        "product_page_verified"
+        "Product_Page"
     )
 
 
 # =====================================================
-# SIZE SELECTION
+# SIZE
 # =====================================================
 
-@when("User selects product size")
+@when("User selects product size in e2e")
 def select_size(context):
 
     context.cart_page.select_size()
 
     logger.info(
-        "Size Selected"
-    )
-
-    ScreenshotUtil.capture_screenshot(
-        context.driver,
-        "size_selected"
+        "Product Size Selected"
     )
 
 
@@ -238,7 +167,7 @@ def select_size(context):
 # ADD TO BAG
 # =====================================================
 
-@when("User adds product to bag")
+@when("User adds product to bag in e2e")
 def add_to_bag(context):
 
     context.cart_page.add_to_bag()
@@ -247,53 +176,169 @@ def add_to_bag(context):
         "Product Added To Bag"
     )
 
-    ScreenshotUtil.capture_screenshot(
-        context.driver,
-        "product_added_to_bag"
-    )
 
-
-@then("User verifies product added successfully")
+@then("User verifies product added successfully in e2e")
 def verify_product_added(context):
 
-    assert "bag" in (
-        context.driver.page_source.lower()
-    )
+    context.cart_page.verify_product_added()
 
     logger.info(
-        "Add To Bag Verified"
+        "Product Successfully Added To Bag"
     )
 
     ScreenshotUtil.capture_screenshot(
         context.driver,
-        "add_to_bag_verified"
+        "Added_To_Bag"
     )
 
 
 # =====================================================
-# LOGIN POPUP
+# SHOPPING BAG
 # =====================================================
 
-@when("User opens login popup")
-def open_login_popup(context):
+@when("User opens shopping bag in e2e")
+def open_bag(context):
 
-    context.login_page.open_login()
+    context.cart_page.open_bag()
 
     logger.info(
-        "Login Popup Opened"
+        "Shopping Bag Opened"
+    )
+
+
+@then("User verifies cart page successfully in e2e")
+def verify_cart_page(context):
+
+    context.cart_page.verify_cart_page()
+
+    logger.info(
+        "Cart Page Verified Successfully"
     )
 
     ScreenshotUtil.capture_screenshot(
         context.driver,
-        "login_popup_opened"
+        "Cart_Page"
     )
 
 
 # =====================================================
-# MOBILE NUMBER
+# QUANTITY
 # =====================================================
 
-@when('User enters mobile number "{number}"')
+@when('User changes quantity to "{quantity}" in e2e')
+def change_quantity(context, quantity):
+
+    logger.info(
+        f"Changing quantity to {quantity}"
+    )
+
+    qty = context.wait.until(
+        EC.element_to_be_clickable(
+            (
+                By.XPATH,
+                "//div[contains(@class,'itemComponents-base-quantity')]"
+            )
+        )
+    )
+
+    context.driver.execute_script(
+        "arguments[0].click();",
+        qty
+    )
+
+    qty_option = context.wait.until(
+        EC.element_to_be_clickable(
+            (
+                By.XPATH,
+                f"(//div[contains(@class,'dialogs-base-item')])[{quantity}]"
+            )
+        )
+    )
+
+    try:
+        qty_option.click()
+
+    except ElementClickInterceptedException:
+
+        context.driver.execute_script(
+            "arguments[0].click();",
+            qty_option
+        )
+
+
+# =====================================================
+# DONATION
+# =====================================================
+
+@when('User selects donation "{donation}" in e2e')
+def select_donation(context, donation):
+
+    logger.info(
+        f"Selecting donation ₹{donation}"
+    )
+
+    donate = context.wait.until(
+        EC.element_to_be_clickable(
+            (
+                By.XPATH,
+                f"//div[contains(text(),'₹{donation}')]"
+            )
+        )
+    )
+
+    context.driver.execute_script(
+        "arguments[0].click();",
+        donate
+    )
+
+
+# =====================================================
+# PLACE ORDER
+# =====================================================
+
+@when("User clicks place order in e2e")
+def click_place_order(context):
+
+    logger.info(
+        "Clicking Place Order"
+    )
+
+    place = context.wait.until(
+        EC.element_to_be_clickable(
+            (
+                By.XPATH,
+                "//button[contains(.,'PLACE ORDER')]"
+            )
+        )
+    )
+
+    context.driver.execute_script(
+        "arguments[0].click();",
+        place
+    )
+
+
+# =====================================================
+# LOGIN REDIRECT
+# =====================================================
+
+@then("User should be redirected to login page in e2e")
+def verify_login_redirect(context):
+
+    context.wait.until(
+        lambda d: "login" in d.current_url.lower()
+    )
+
+    logger.info(
+        f"Redirected URL: {context.driver.current_url}"
+    )
+
+
+# =====================================================
+# LOGIN
+# =====================================================
+
+@when('User enters mobile number "{number}" in e2e')
 def enter_mobile(context, number):
 
     context.login_page.enter_mobile_number(
@@ -301,20 +346,16 @@ def enter_mobile(context, number):
     )
 
     logger.info(
-        f"Mobile Number Entered: {number}"
+        "Valid Mobile Number Entered"
     )
 
     ScreenshotUtil.capture_screenshot(
         context.driver,
-        "mobile_number_entered"
+        "Valid_Mobile_Number_Entered"
     )
 
 
-# =====================================================
-# CONSENT CHECKBOX
-# =====================================================
-
-@when("User clicks consent checkbox")
+@when("User clicks consent checkbox in e2e")
 def click_checkbox(context):
 
     context.login_page.click_consent_checkbox()
@@ -325,15 +366,11 @@ def click_checkbox(context):
 
     ScreenshotUtil.capture_screenshot(
         context.driver,
-        "checkbox_clicked"
+        "Consent_Checkbox_Clicked"
     )
 
 
-# =====================================================
-# CONTINUE BUTTON
-# =====================================================
-
-@when("User clicks continue button")
+@when("User clicks continue button in e2e")
 def click_continue(context):
 
     context.login_page.click_continue()
@@ -344,15 +381,15 @@ def click_continue(context):
 
     ScreenshotUtil.capture_screenshot(
         context.driver,
-        "continue_clicked"
+        "Continue_Button_Clicked"
     )
 
 
 # =====================================================
-# VALID LOGIN
+# OTP
 # =====================================================
 
-@then("OTP page should display successfully")
+@then("OTP page should display successfully in e2e")
 def verify_otp(context):
 
     assert "otp" in (
@@ -363,28 +400,12 @@ def verify_otp(context):
         "OTP Page Assertion Passed"
     )
 
-    ScreenshotUtil.capture_screenshot(
-        context.driver,
-        "otp_page_verified"
-    )
-
-
-# =====================================================
-# INVALID LOGIN
-# =====================================================
-
-@then("Valid mobile number error should display")
-def verify_invalid_mobile(context):
-
-    assert "valid mobile number" in (
-        context.driver.page_source.lower()
+    allure.attach(
+        context.driver.get_screenshot_as_png(),
+        name="Final_Result",
+        attachment_type=allure.attachment_type.PNG
     )
 
     logger.info(
-        "Invalid Login Error Verification Passed"
-    )
-
-    ScreenshotUtil.capture_screenshot(
-        context.driver,
-        "invalid_login_verified"
+        "Complete E2E Test Passed Successfully"
     )
